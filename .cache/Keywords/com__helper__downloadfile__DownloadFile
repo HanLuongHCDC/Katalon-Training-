@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BBB35CC39825FB658A37A887869F9C5F",
+  "keywordClasses": [
+    {
+      "name": "com.helper.downloadfile.DownloadFile",
+      "keywordMethods": [
+        {
+          "name": "VerifyFileDownloaded",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

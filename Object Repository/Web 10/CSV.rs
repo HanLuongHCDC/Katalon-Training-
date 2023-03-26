@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CSV</name>
+   <tag></tag>
+   <elementGuidId>da5cd764-59e4-4000-83f0-a3122472a103</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='CSV']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='CSV']</value>
+      <webElementGuid>a720d53a-22b8-4269-abe4-8f9976e3d088</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

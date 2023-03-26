@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Selected</name>
+   <tag></tag>
+   <elementGuidId>3a1004cc-f00e-443d-8a94-fadc898874dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//option[@selected='selected']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//option[@selected='selected']</value>
+      <webElementGuid>c297331c-fac3-4dbf-afe0-b0b817d89d07</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

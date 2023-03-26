@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>JQuery</name>
+   <tag></tag>
+   <elementGuidId>71c97a59-ad9b-42e3-9600-2678b3ca6e83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='/jqueryui']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='/jqueryui']</value>
+      <webElementGuid>dea42ab8-36a8-47b4-a6fa-d5bcbd9e0010</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu</name>
+   <tag></tag>
+   <elementGuidId>f9e5dc81-7eca-4682-8e1d-9f81677a9b62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='/jqueryui/menu']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='/jqueryui/menu']</value>
+      <webElementGuid>492ee865-4f91-4446-b965-ef41ccfe13e0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

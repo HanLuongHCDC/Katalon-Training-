@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Enable</name>
+   <tag></tag>
+   <elementGuidId>744f2966-7816-4152-8cf2-6628cfd60918</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='Enabled']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='Enabled']</value>
+      <webElementGuid>c510898d-712c-48be-bf96-6b0dac5ec764</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

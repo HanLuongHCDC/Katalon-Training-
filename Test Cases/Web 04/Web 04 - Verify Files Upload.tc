@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Web 04 - Verify Files Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a32bbc92-8e89-413d-a746-a686b00c999c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e992152e-5fe9-4379-a560-42f08cb4a0f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\Users\\hanluong\\Downloads\\tree.png'</defaultValue>
+      <description></description>
+      <id>e992152e-5fe9-4379-a560-42f08cb4a0f6</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

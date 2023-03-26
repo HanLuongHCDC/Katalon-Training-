@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Result</name>
+   <tag></tag>
+   <elementGuidId>39f33f6c-e72f-4fa7-bad1-316efa3b8160</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id='result']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id='result']</value>
+      <webElementGuid>9c4b52c7-dffd-4bbe-a5e7-93763fd8b82f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
