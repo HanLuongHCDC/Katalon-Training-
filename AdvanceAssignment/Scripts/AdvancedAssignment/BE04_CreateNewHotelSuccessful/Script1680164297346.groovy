@@ -23,8 +23,8 @@ WebUI.waitForPageLoad(GlobalVariable.timeOut)
 
 'Step 3:'
 'Input all Hotel Information on General Tab'
-WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/txtHotelName'), hotelName, FailureHandling.STOP_ON_FAILURE)
-WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/txtHotelDes'), hotelDes, FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/txtHotelName'), oldName, FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/txtHotelDes'), oldDes, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/ddLocation'), FailureHandling.STOP_ON_FAILURE)
 WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/txtLocation'), location, FailureHandling.STOP_ON_FAILURE)
 WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/txtLocation'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)

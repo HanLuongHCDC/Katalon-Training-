@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubmitWithUpdateData</name>
+   <tag></tag>
+   <elementGuidId>af08e69a-4fc7-4a92-a6a3-4c3d71811229</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='update']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='update']</value>
+      <webElementGuid>1cf0b30c-6207-4cad-95ff-7538268186f1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

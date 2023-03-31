@@ -1,16 +1,18 @@
 {
-  "keywordFileContentHash": "02D6F0E6F64037B3DCEE09A1CAC0DBA6",
+  "keywordFileContentHash": "DE64E65E0DF2EBDA5A947D03A927D40B",
   "keywordClasses": [
     {
       "name": "com.kms.VerifyPage.VerifyPage",
       "keywordMethods": [
         {
           "name": "NavigateToLoginPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "NavigateToHotelsPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "NavigateToPage",
@@ -28,7 +30,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "InputEmailPasswordAndLogin",
@@ -59,7 +62,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "BackgroundColorButton",
@@ -90,7 +94,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "GetElementSize",
@@ -121,10 +126,61 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "CreateNewHotel",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "des",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "location",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "ClearOldInformation",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

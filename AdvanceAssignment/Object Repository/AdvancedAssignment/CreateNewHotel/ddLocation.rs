@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddLocation</name>
+   <tag></tag>
+   <elementGuidId>bcc93868-32c9-4440-a72b-3bebb510418c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./label[text()='Location']]//b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./label[text()='Location']]//b</value>
+      <webElementGuid>01ae16db-457c-441a-bf9a-addcf4a18960</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

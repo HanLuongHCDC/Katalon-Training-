@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE05_ModifyHotelInformationByHotelName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1cfec0e-c308-4276-9695-b5107368f2b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67d77739-5013-438a-b36a-6631596170f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d86c16d8-47dc-4251-b4e7-aa5e7ea0fbf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce01e57b-eaf8-4b0a-a512-c19684af988b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5135a9ea-4ec1-4eef-87ba-aff679ab35aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85ddd954-3786-429e-ac7d-3b2e79f1500c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f47fe54-3944-464c-aab5-6377026867a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Old Admin'</defaultValue>
+      <description></description>
+      <id>67d77739-5013-438a-b36a-6631596170f7</id>
+      <masked>false</masked>
+      <name>oldName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Old Admin Old Admin'</defaultValue>
+      <description></description>
+      <id>d86c16d8-47dc-4251-b4e7-aa5e7ea0fbf1</id>
+      <masked>false</masked>
+      <name>oldDes</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Admin'</defaultValue>
+      <description></description>
+      <id>ce01e57b-eaf8-4b0a-a512-c19684af988b</id>
+      <masked>false</masked>
+      <name>newName</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Admin New Admin'</defaultValue>
+      <description></description>
+      <id>5135a9ea-4ec1-4eef-87ba-aff679ab35aa</id>
+      <masked>false</masked>
+      <name>newDes</name>
+   </variable>
+   <variable>
+      <defaultValue>'USA'</defaultValue>
+      <description></description>
+      <id>85ddd954-3786-429e-ac7d-3b2e79f1500c</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>'SIN'</defaultValue>
+      <description></description>
+      <id>2f47fe54-3944-464c-aab5-6377026867a9</id>
+      <masked>false</masked>
+      <name>newLocation</name>
+   </variable>
+</TestCaseEntity>

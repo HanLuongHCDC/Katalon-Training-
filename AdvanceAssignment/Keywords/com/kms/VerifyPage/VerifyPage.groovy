@@ -2,6 +2,7 @@ package com.kms.VerifyPage
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.openqa.selenium.Keys
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.Color
 
@@ -21,14 +22,14 @@ public class VerifyPage {
 		WebUI.waitForPageLoad(GlobalVariable.timeOut)
 		WebUI.maximizeWindow()
 	}
-	
+
 	@Keyword
 	public void NavigateToHotelsPage() {
 		WebUI.openBrowser(GlobalVariable.urlHotels)
 		WebUI.waitForPageLoad(GlobalVariable.timeOut)
 		WebUI.maximizeWindow()
 	}
-	
+
 	@Keyword
 	public void NavigateToPage(String url) {
 		WebUI.waitForPageLoad(GlobalVariable.timeOut)
@@ -56,5 +57,21 @@ public class VerifyPage {
 		List<WebElement> elementSize = WebUiCommonHelper.findWebElements(TestObject, 30)
 		WebUI.verifyEqual(elementSize.size(), size, FailureHandling.CONTINUE_ON_FAILURE)
 		System.out.println("The number of this element are: " + elementSize.size())
+	}
+	
+	@Keyword
+	public void CreateNewHotel(String name, String des, String location) {
+		WebUI.waitForPageLoad(GlobalVariable.timeOut)
+		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtHotelName'), name, FailureHandling.STOP_ON_FAILURE)
+		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtHotelDes'), des, FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/ddLocation'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtLocation'), location, FailureHandling.STOP_ON_FAILURE)
+		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtLocation'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Keyword
+	public void ClearOldInformation() {
+		WebUI.clearText(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtHotelName'), FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.clearText(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtHotelDes'), FailureHandling.CONTINUE_ON_FAILURE)
 	}
 }
