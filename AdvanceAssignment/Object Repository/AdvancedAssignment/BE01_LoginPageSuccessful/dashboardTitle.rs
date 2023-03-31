@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dashboardTitle</name>
+   <tag></tag>
+   <elementGuidId>19262c82-3dd6-4881-96dd-5b86c4499f77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//title</value>
+      <webElementGuid>b418148b-be8b-4284-9db3-94dd2b67cb1a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

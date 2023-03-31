@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iconRefundedBookings</name>
+   <tag></tag>
+   <elementGuidId>7c0afb3e-1aa8-48f1-b50c-93db19ff2c38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./i[text()='money_off']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./i[text()='money_off']]</value>
+      <webElementGuid>618cdef0-ea71-4cae-8069-017f0275fc00</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

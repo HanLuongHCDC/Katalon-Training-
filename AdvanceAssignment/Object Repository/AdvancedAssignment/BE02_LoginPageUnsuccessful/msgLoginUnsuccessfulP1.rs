@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msgLoginUnsuccessfulP1</name>
+   <tag></tag>
+   <elementGuidId>34d080f5-3842-45d4-87b9-3ef9ac5cae06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'alert-danger')]/p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'alert-danger')]/p[1]</value>
+      <webElementGuid>1ee1c758-c4d9-4323-8a97-859b0b9a65c6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

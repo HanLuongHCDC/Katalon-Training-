@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>accountsSublist</name>
+   <tag></tag>
+   <elementGuidId>dd07862a-0b6a-4532-b793-b8ea6346705f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='collapseLayouts']//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='collapseLayouts']//a</value>
+      <webElementGuid>1d6f6fc2-5ac5-494c-aef3-247a3e5ec146</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

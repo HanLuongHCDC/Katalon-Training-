@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE04_CreateNewHotelSuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a6a68af-dd2a-413b-8c9d-7e48ab8805a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8955b137-a6cc-4bf4-8545-b4b3399a6ad4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccc57c4e-9a28-4870-b63c-65f118f65fd4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6d71083-cdb8-47b5-8bc9-f9c0c18ba07f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin Admin'</defaultValue>
+      <description></description>
+      <id>8955b137-a6cc-4bf4-8545-b4b3399a6ad4</id>
+      <masked>false</masked>
+      <name>hotelName</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is a hotel of Admin'</defaultValue>
+      <description></description>
+      <id>ccc57c4e-9a28-4870-b63c-65f118f65fd4</id>
+      <masked>false</masked>
+      <name>hotelDes</name>
+   </variable>
+   <variable>
+      <defaultValue>'USA'</defaultValue>
+      <description></description>
+      <id>b6d71083-cdb8-47b5-8bc9-f9c0c18ba07f</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+</TestCaseEntity>

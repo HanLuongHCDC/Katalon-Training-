@@ -1,0 +1,48 @@
+{
+  "keywordFileContentHash": "C594467659BBD58636D8703B934A1849",
+  "keywordClasses": [
+    {
+      "name": "com.kms.LoginPage.VerifyPage",
+      "keywordMethods": [
+        {
+          "name": "NavigateToLoginPage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "InputEmailPasswordAndLogin",
+          "parameters": [
+            {
+              "name": "email",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

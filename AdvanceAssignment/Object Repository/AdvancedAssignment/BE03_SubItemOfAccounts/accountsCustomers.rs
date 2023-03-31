@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>accountsCustomers</name>
+   <tag></tag>
+   <elementGuidId>243be6dd-a154-40bb-ae2b-ffaa0ebcfae1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='Customers']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='Customers']</value>
+      <webElementGuid>28584d9a-b10b-44a4-85b0-3817fe647f69</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnDashboard</name>
+   <tag></tag>
+   <elementGuidId>c828ff82-b361-4dbb-947d-3e12cc773f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./div[./a[@href='https://phptravels.net/api/admin/bookings/confirmed']]]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./div[./a[@href='https://phptravels.net/api/admin/bookings/confirmed']]]/div</value>
+      <webElementGuid>22ae61bc-96b3-4034-aa3d-5507b1dbf21b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

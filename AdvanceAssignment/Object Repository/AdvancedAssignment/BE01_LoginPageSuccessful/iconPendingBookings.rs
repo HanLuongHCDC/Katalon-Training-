@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iconPendingBookings</name>
+   <tag></tag>
+   <elementGuidId>b3670848-c21d-48f8-a31c-17363d58d11b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./i[text()='event']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./i[text()='event']]</value>
+      <webElementGuid>26c9c2a1-e82e-476b-b57e-ffb3bda1aca9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

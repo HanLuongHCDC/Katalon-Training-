@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textRevenueSession</name>
+   <tag></tag>
+   <elementGuidId>8dc8cf49-c4df-40b6-acf8-e2fef6e4b0f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[contains(text(),'Revenue')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[contains(text(),'Revenue')]</value>
+      <webElementGuid>4dafe74d-f977-4d47-88d5-15e07e851d68</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

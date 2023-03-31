@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msgLoginUnsuccessful</name>
+   <tag></tag>
+   <elementGuidId>f86d454e-bfe5-46e5-90b1-85891e0e1e8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'alert-danger')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'alert-danger')]</value>
+      <webElementGuid>9055f25e-5d0f-4999-a19a-f63f64a07102</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

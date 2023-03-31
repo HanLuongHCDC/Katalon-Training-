@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSubmit</name>
+   <tag></tag>
+   <elementGuidId>b2b01b8a-2cbd-4a54-a576-64c4b7477d01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='add']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='add']</value>
+      <webElementGuid>fcc16328-c29c-4370-b792-2dd5f09ae82a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

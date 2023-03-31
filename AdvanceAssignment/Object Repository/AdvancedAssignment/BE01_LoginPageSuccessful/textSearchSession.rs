@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textSearchSession</name>
+   <tag></tag>
+   <elementGuidId>44ac7251-343f-437c-844c-611ff2e98a76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[contains(text(),'Searches')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[contains(text(),'Searches')]</value>
+      <webElementGuid>c15f0ed9-0f82-45ab-a72f-0ec2980e2e6a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

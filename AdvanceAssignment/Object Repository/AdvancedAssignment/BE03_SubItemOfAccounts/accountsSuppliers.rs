@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>accountsSuppliers</name>
+   <tag></tag>
+   <elementGuidId>601d6705-7132-4531-a754-c804414482e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='Suppliers']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='Suppliers']</value>
+      <webElementGuid>326a60e1-2243-4d5d-a310-042e8edc0b4d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

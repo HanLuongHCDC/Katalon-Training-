@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>accountsAgents</name>
+   <tag></tag>
+   <elementGuidId>80fcec3d-8bf0-4785-a827-352d411d0bfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='Agents']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='Agents']</value>
+      <webElementGuid>8ea4128c-3f46-40de-b085-9409d2fecf15</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
