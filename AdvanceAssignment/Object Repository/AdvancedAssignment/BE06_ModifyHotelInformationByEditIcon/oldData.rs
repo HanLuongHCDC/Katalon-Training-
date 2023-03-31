@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>oldHotelName</name>
+   <name>oldData</name>
    <tag></tag>
-   <elementGuidId>3f7096e8-dd87-4991-b747-06dc4067af52</elementGuidId>
+   <elementGuidId>58217bba-282a-45c9-82b8-7f8f694628bd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table//td/a[text()='Old Admin']</value>
+         <value>//table//tr[contains(string(),'old') and contains(string(),'Pusa')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table//td/a[text()='Old Admin']</value>
-      <webElementGuid>49881af9-2c1b-4f5e-b2d5-c888d63285d1</webElementGuid>
+      <value>//table//tr[contains(string(),'old') and contains(string(),'Pusa')]</value>
+      <webElementGuid>2a5b9c55-e48b-43d9-96b7-d375a8efa0da</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
