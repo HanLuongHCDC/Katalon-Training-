@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>clkDropFile</name>
+   <tag></tag>
+   <elementGuidId>80929da0-d0b0-46b6-a550-25236bb9c32e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='dropzone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='dropzone']</value>
+      <webElementGuid>252ee669-bf61-4b94-ab73-80825c4953cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE08_DeleteHotelsByIcon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52855753-ce92-49f8-8cf3-d6dc039c16fb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e1f1e8d-4fe3-4098-a88a-4c63c202233a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be1fca5a-6c82-475d-92f8-87277f2c363a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ecfb753-69b7-4d00-abd6-b601b7e48521</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3b10cb1-f3a8-4ad2-8a36-140dc9cbdc74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>8e1f1e8d-4fe3-4098-a88a-4c63c202233a</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin Admin'</defaultValue>
+      <description></description>
+      <id>be1fca5a-6c82-475d-92f8-87277f2c363a</id>
+      <masked>false</masked>
+      <name>des</name>
+   </variable>
+   <variable>
+      <defaultValue>'USA'</defaultValue>
+      <description></description>
+      <id>9ecfb753-69b7-4d00-abd6-b601b7e48521</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>'Do you really want remove this entry?'</defaultValue>
+      <description></description>
+      <id>c3b10cb1-f3a8-4ad2-8a36-140dc9cbdc74</id>
+      <masked>false</masked>
+      <name>alertText</name>
+   </variable>
+</TestCaseEntity>

@@ -58,7 +58,7 @@ public class VerifyPage {
 		WebUI.verifyEqual(elementSize.size(), size, FailureHandling.CONTINUE_ON_FAILURE)
 		System.out.println("The number of this element are: " + elementSize.size())
 	}
-	
+
 	@Keyword
 	public void CreateNewHotel(String name, String des, String location) {
 		WebUI.waitForPageLoad(GlobalVariable.timeOut)
@@ -68,7 +68,7 @@ public class VerifyPage {
 		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtLocation'), location, FailureHandling.STOP_ON_FAILURE)
 		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtLocation'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	public void ClearOldInformation() {
 		WebUI.clearText(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/txtHotelName'), FailureHandling.CONTINUE_ON_FAILURE)

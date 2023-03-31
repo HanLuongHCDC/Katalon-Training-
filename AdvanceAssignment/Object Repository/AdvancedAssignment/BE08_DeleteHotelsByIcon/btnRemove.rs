@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnRemove</name>
+   <tag></tag>
+   <elementGuidId>f437889e-c07c-4e39-ad6b-900fe99bb453</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table//tr[./td[./a[text()='Admin']]]//a[@title='Remove']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table//tr[./td[./a[text()='Admin']]]//a[@title='Remove']</value>
+      <webElementGuid>1a22dfe6-5391-4f3f-8ce9-9d20a74749ee</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
