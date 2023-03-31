@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewH
 'The created hotel displays on Hotel Management with correct information'
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/tableAddedData'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.closeBrowser()
+
 
 
 
