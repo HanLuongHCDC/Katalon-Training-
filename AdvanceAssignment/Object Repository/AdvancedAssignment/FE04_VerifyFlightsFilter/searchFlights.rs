@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchFlights</name>
+   <tag></tag>
+   <elementGuidId>fdd79e95-37c5-44db-9c4f-bf102db79c17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='flights-search']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='flights-search']</value>
+      <webElementGuid>85800740-3461-48f9-b64e-a3dea46a9eae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddTo</name>
+   <tag></tag>
+   <elementGuidId>ab99ba1a-2b1f-4921-9a4b-a4a90a023bf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='autocomplete2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='autocomplete2']</value>
+      <webElementGuid>53702020-ca29-4693-ab5d-cf07f4493f55</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

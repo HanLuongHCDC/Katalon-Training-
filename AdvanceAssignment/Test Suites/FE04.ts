@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>FE04</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>7c62ee3a-2876-4e8e-9b71-31ad6854712f</testSuiteGuid>
+   <testCaseLink>
+      <guid>12de8e19-c45a-4aa0-84ce-322552e01a34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdvancedAssignment/FE04_VerifyFlightsFilter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d8d4ae9b-b912-482d-ac5d-98104de563e9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FilterFlightsPage</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>To Destination</value>
+         <variableId>1f08f5bc-1df7-46ff-9eb4-80cea4d1f9f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Flying From</value>
+         <variableId>9afa63e7-8e6b-4d0c-bd6e-bcdff6024247</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Month and Year</value>
+         <variableId>538be0e1-bf74-4561-9d24-68c5f91c22a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Adults</value>
+         <variableId>3e0a5ce3-6e28-4c63-9e6d-a673aed5ce18</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Childs</value>
+         <variableId>8559bda4-048c-45dc-ae02-be78d398ee22</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Infants</value>
+         <variableId>d01aab1d-999d-49fc-a219-dd19253837b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8d4ae9b-b912-482d-ac5d-98104de563e9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>c0ddc62f-fdad-4a24-a502-0c8524aee1da</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

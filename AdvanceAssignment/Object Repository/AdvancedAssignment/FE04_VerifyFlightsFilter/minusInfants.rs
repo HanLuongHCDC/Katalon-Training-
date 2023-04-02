@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>minusInfants</name>
+   <tag></tag>
+   <elementGuidId>50f3d579-3b54-460a-ba36-8d03a20be497</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id='finfant']]//i[contains(@class,'minus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id='finfant']]//i[contains(@class,'minus')]</value>
+      <webElementGuid>6d35059c-fdf9-409e-906a-1f94b45f2a14</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

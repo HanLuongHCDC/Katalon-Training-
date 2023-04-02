@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titleFilghts</name>
+   <tag></tag>
+   <elementGuidId>747f6db7-9c07-4ebf-a74d-edbeaa7f83da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[./i[contains(@class,'arrow-right')]]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[./i[contains(@class,'arrow-right')]]</value>
+      <webElementGuid>45d713eb-3cdf-4267-a206-1bf4a8b89a32</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

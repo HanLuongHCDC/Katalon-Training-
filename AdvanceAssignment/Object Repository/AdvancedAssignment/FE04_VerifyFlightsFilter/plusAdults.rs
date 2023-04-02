@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plusAdults</name>
+   <tag></tag>
+   <elementGuidId>04421892-a2df-4104-9983-5b4dbe91c59a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id='fadults']]//i[contains(@class,'plus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id='fadults']]//i[contains(@class,'plus')]</value>
+      <webElementGuid>e4a1dad8-b19c-4ff3-9f38-57be6fd20cd4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

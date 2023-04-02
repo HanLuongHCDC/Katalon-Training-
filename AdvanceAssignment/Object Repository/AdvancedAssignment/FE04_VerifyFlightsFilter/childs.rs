@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>childs</name>
+   <tag></tag>
+   <elementGuidId>2db78078-f1e0-4688-a965-1d1421b1888a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='fchilds']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='fchilds']</value>
+      <webElementGuid>dd9db6a8-3e8e-4016-ba37-5182013f1c75</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

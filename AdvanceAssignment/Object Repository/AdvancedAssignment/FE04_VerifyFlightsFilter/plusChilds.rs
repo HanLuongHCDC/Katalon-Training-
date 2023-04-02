@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plusChilds</name>
+   <tag></tag>
+   <elementGuidId>7cf8e0b3-ff62-45a0-85af-ff6f06dfeee8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id='fchilds']]//i[contains(@class,'plus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id='fchilds']]//i[contains(@class,'plus')]</value>
+      <webElementGuid>ff84e3e0-54c9-4bee-a1df-73e9c336c5bd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>adults</name>
+   <tag></tag>
+   <elementGuidId>7511ef56-ce1b-4e54-890d-0c8a9884afb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='fadults']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='fadults']</value>
+      <webElementGuid>0cd225b5-6fb6-4c6c-bad9-210cf3a04ba3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

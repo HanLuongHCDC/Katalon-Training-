@@ -147,4 +147,41 @@ public class VerifyPage {
 			numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtChild'), "value")
 		}
 	}
+	
+	@Keyword
+	public void SelectPassengers(String erAdults, String erChild, String erInfants) {
+		String numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/adults'), "value")
+		System.out.println(numberOfAdults)
+		String numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/childs'), "value")
+		System.out.println(numberOfChild)
+		String numberOfInfants = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/infants'), "value")
+		System.out.println(numberOfInfants)
+		while(!numberOfAdults.equals(erAdults)) {
+			if(erAdults>numberOfAdults) {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/plusAdults'))
+			}
+			else {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/minusAdults'))
+			}
+			numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/adults'), "value")
+		}
+		while(!numberOfChild.equals(erChild)) {
+			if(erChild>numberOfChild) {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/plusChilds'))
+			}
+			else {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/minusChilds'))
+			}
+			numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/childs'), "value")
+		}
+		while(!numberOfInfants.equals(erInfants)) {
+			if(erInfants>numberOfInfants) {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/plusInfants'))
+			}
+			else {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/minusInfants'))
+			}
+			numberOfInfants = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/infants'), "value")
+		}
+	}
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titleDates</name>
+   <tag></tag>
+   <elementGuidId>d490dfc3-ff0b-4070-b621-f8ee2f7db337</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[./strong[contains(.,'Dates')]]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[./strong[contains(.,'Dates')]]</value>
+      <webElementGuid>7be58509-ac5e-4aeb-86ef-6a392a2598dc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -54,4 +54,9 @@
       <initValue>'https://phptravels.net/tours'</initValue>
       <name>urlTour</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/flights'</initValue>
+      <name>urlFlights</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

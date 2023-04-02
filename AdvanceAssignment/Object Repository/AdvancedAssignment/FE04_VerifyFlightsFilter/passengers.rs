@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>passengers</name>
+   <tag></tag>
+   <elementGuidId>a6edba5b-2284-4027-99a2-ae9c8d358b6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'input-box')]//p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'input-box')]//p</value>
+      <webElementGuid>fa4f6c38-f81e-42ec-9395-fb125dd3e741</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
