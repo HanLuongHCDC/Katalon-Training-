@@ -49,4 +49,9 @@
       <initValue>''</initValue>
       <name>format</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/tours'</initValue>
+      <name>urlTour</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

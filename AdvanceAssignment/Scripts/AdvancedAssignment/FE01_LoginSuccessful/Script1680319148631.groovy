@@ -46,8 +46,7 @@ CustomKeywords.'com.kms.VerifyPage.VerifyPage.LoginUser'(GlobalVariable.userEmai
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/AdvancedAssignment/FE01_LoginSuccessful/textUserName')), userName, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Main page is displayed as correct format'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.GetFormatDateTime'()
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/AdvancedAssignment/FE01_LoginSuccessful/dateTime')), GlobalVariable.format, false, FailureHandling.CONTINUE_ON_FAILURE)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.ParseFormat'('Object Repository/AdvancedAssignment/FE01_LoginSuccessful/dateTime')
 
 'Let menu bar label:  Dashboard; My Bookings; Add Funds; My Profile; Logout'
 'Let menu bar icon: Dashboard; My Bookings; Add Funds; My Profile; Logout'

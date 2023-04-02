@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "5E5094E391FF12311C2BD4FEC80AB779",
+  "keywordFileContentHash": "69524A1DB41F822B92DE6E6A4EF37036",
   "keywordClasses": [
     {
       "name": "com.kms.VerifyPage.VerifyPage",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "VerifyCurrentUrl",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "InputEmailPasswordAndLogin",
@@ -69,7 +71,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "LoginUser",
@@ -100,7 +103,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "BackgroundColorButton",
@@ -131,7 +135,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "GetElementSize",
@@ -162,7 +167,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "CreateNewHotel",
@@ -206,11 +212,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "ClearOldInformation",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "VerifyFileDownloaded",
@@ -228,11 +236,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
-        },
-        {
-          "name": "GetFormatDateTime",
-          "parameters": []
+          ],
+          "javadoc": ""
         },
         {
           "name": "ParseFormat",
@@ -250,10 +255,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

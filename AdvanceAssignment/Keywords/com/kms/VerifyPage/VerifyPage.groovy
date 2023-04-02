@@ -93,24 +93,12 @@ public class VerifyPage {
 	}
 	
 	@Keyword
-	public void GetFormatDateTime() {
-        Date date = new Date();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss 'GMT'Z' (Indochina Time)'");
-		GlobalVariable.format = dateFormat.format(date)
-        System.out.println(GlobalVariable.format)
-	}
-	
-	@Keyword
 	public void ParseFormat(TestObject) {
-        String date = WebUI.getText(findTestObject(TestObject))
-		System.out.println(date)
-        SimpleDateFormat dateFormat = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss 'GMT'Z' (Indochina Time)'");
-		def i = dateFormat.getDateTimeInstance()
-		System.out.println(i)
-		String formatDateTime = dateFormat.parse(date)
-        System.out.println(formatDateTime)
-		def convert = dateFormat.format(formatDateTime)
-		System.out.println(convert)
-		WebUI.verifyMatch(date, convert, false)
+        String dateTime = WebUI.getText(findTestObject(TestObject))
+        SimpleDateFormat dateTimeFormat = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss");
+        Date parseDateTime = dateTimeFormat.parse(dateTime);
+        SimpleDateFormat formatDateTime = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss 'GMT'Z' (Indochina Time)'");
+        System.out.println(formatDateTime.format(parseDateTime));
+		WebUI.verifyMatch(dateTime, formatDateTime.format(parseDateTime), false,FailureHandling.CONTINUE_ON_FAILURE)
 	}
 }
