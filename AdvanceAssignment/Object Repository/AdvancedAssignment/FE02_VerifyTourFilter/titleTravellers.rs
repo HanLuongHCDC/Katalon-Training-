@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titleTravellers</name>
+   <tag></tag>
+   <elementGuidId>fb512c45-1e6b-4e0d-8c3c-38d7ae8cdae2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[contains(text(),'Adults')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[contains(text(),'Adults')]</value>
+      <webElementGuid>82afceb5-e12a-4998-93ca-b8aa5f4f8568</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

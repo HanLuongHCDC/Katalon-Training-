@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>FE</name>
+   <name>FE02</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>4</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>c9438306-d306-4093-8645-10894688f939</testSuiteGuid>
+   <testSuiteGuid>dbd0ae4a-7644-4ef9-84a7-ddf0598506dc</testSuiteGuid>
    <testCaseLink>
-      <guid>afeea3d5-040c-4e3c-b6ce-f0935d251873</guid>
+      <guid>61bc84e1-eee9-4ca7-a1a7-818bc667bfa8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AdvancedAssignment/FE02_VerifyTourFilter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>28b78228-4fbb-4145-ab86-ba7afed4d38f</id>
+         <id>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,37 +27,37 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>28b78228-4fbb-4145-ab86-ba7afed4d38f</testDataLinkId>
+         <testDataLinkId>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Destination</value>
          <variableId>8c9bd462-0519-4abc-a575-3bcd3ca86a6f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>28b78228-4fbb-4145-ab86-ba7afed4d38f</testDataLinkId>
+         <testDataLinkId>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Month and Year</value>
          <variableId>86994fde-0004-49d0-b66f-d99f53ea45c7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>28b78228-4fbb-4145-ab86-ba7afed4d38f</testDataLinkId>
+         <testDataLinkId>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Date</value>
          <variableId>ad149a8a-5123-40b9-8dde-de5edfeff967</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>28b78228-4fbb-4145-ab86-ba7afed4d38f</testDataLinkId>
+         <testDataLinkId>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Adult</value>
          <variableId>45dcffdc-b6a2-498c-9564-492e536121ba</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>28b78228-4fbb-4145-ab86-ba7afed4d38f</testDataLinkId>
+         <testDataLinkId>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Child</value>
          <variableId>dd6d714c-f42d-4251-be97-743b53945f86</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>28b78228-4fbb-4145-ab86-ba7afed4d38f</testDataLinkId>
+         <testDataLinkId>f4d1e8b8-4b61-4b15-a2d3-16e7bb204a01</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Title</value>
          <variableId>1ac96b41-abb8-4193-b3f3-49993ad035b5</variableId>

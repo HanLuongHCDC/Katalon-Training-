@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputDate</name>
+   <tag></tag>
+   <elementGuidId>e9eed71f-2eb6-4b49-8384-fc66284f04d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='checkin']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='checkin']</value>
+      <webElementGuid>2294e4d0-1ae1-4569-9a21-c72717774b31</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

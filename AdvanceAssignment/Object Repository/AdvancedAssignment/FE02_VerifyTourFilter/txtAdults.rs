@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtAdults</name>
+   <tag></tag>
+   <elementGuidId>4694b953-7624-4322-a6f3-91394f79ea76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='tours_adults']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='tours_adults']</value>
+      <webElementGuid>96146398-f382-4239-9eb8-9dfe28243788</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

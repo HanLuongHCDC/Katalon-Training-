@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPlusAdults</name>
+   <tag></tag>
+   <elementGuidId>4b31d241-1227-44ff-b713-e8206911bb59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id='tours_adults']]//i[contains(@class,'plus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id='tours_adults']]//i[contains(@class,'plus')]</value>
+      <webElementGuid>796009fc-a4dd-41cb-b127-e6b2f0c10383</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

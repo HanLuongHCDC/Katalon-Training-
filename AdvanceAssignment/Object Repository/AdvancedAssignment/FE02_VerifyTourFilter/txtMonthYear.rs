@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtMonthYear</name>
+   <tag></tag>
+   <elementGuidId>98f6962f-0e9c-4eb8-9611-05bf7833a902</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]</value>
+      <webElementGuid>9145b183-da4c-4374-9dfc-83aa339a0bbf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

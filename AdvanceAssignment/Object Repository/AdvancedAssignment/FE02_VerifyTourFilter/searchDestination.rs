@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchDestination</name>
+   <tag></tag>
+   <elementGuidId>b0c076de-aede-4bdc-aeff-77ed1d495f89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type='search']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@type='search']</value>
+      <webElementGuid>727a2ff6-085f-4723-ba64-07ce0ccb4ebc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

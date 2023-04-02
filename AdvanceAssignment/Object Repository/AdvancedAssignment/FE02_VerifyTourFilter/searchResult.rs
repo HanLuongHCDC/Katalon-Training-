@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchResult</name>
+   <tag></tag>
+   <elementGuidId>f68a01c3-8a22-4182-8c11-1d765d93ed37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[contains(text(),'Searching')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[contains(text(),'Searching')]</value>
+      <webElementGuid>ccc600b9-4375-4edb-a571-2d4519071fea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

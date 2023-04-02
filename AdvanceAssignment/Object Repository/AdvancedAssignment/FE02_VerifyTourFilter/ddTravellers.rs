@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddTravellers</name>
+   <tag></tag>
+   <elementGuidId>268a09df-3cb6-4792-bd1b-2c9af2e861b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'input-box')]//p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'input-box')]//p</value>
+      <webElementGuid>534e77d4-62c9-4567-a091-167825f5e0d6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

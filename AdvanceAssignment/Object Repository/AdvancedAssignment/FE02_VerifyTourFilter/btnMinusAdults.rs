@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnMinusAdults</name>
+   <tag></tag>
+   <elementGuidId>24576a33-1807-4d8e-8497-f6ce943b3761</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id='tours_adults']]//i[contains(@class,'minus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id='tours_adults']]//i[contains(@class,'minus')]</value>
+      <webElementGuid>2fd605a5-341b-45de-8941-17059146ba28</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

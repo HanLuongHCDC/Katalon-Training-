@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddDestination</name>
+   <tag></tag>
+   <elementGuidId>8bc4984c-987c-4eeb-80f9-ebabd25edee3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./select[@id='tours_city']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./select[@id='tours_city']]</value>
+      <webElementGuid>e7869a5d-ef3e-4089-b801-a059270332a0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

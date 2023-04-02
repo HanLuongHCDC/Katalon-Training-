@@ -4,7 +4,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.text.SimpleDateFormat
 
+import org.openqa.selenium.By
 import org.openqa.selenium.Keys
+import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.Color
 
@@ -13,12 +15,13 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
 public class VerifyPage {
-	
+
 	@Keyword
 	public void LoginPage(String url) {
 		WebUI.openBrowser(url)
@@ -40,7 +43,7 @@ public class VerifyPage {
 		WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE_SameRepository/btnLogin'))
 		WebUI.waitForPageLoad(GlobalVariable.timeOut)
 	}
-	
+
 	@Keyword
 	public void LoginUser(String email, String password) {
 		WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/txtEmail'), email)
@@ -91,14 +94,57 @@ public class VerifyPage {
 			KeywordUtil.markFailed("Download file failed")
 		}
 	}
-	
+
 	@Keyword
 	public void ParseFormat(TestObject) {
-        String dateTime = WebUI.getText(findTestObject(TestObject))
-        SimpleDateFormat dateTimeFormat = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss");
-        Date parseDateTime = dateTimeFormat.parse(dateTime);
-        SimpleDateFormat formatDateTime = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss 'GMT'Z' (Indochina Time)'");
-        System.out.println(formatDateTime.format(parseDateTime));
+		String dateTime = WebUI.getText(findTestObject(TestObject))
+		SimpleDateFormat dateTimeFormat = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss");
+		Date parseDateTime = dateTimeFormat.parse(dateTime);
+		SimpleDateFormat formatDateTime = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss 'GMT'Z' (Indochina Time)'");
+		System.out.println(formatDateTime.format(parseDateTime));
 		WebUI.verifyMatch(dateTime, formatDateTime.format(parseDateTime), false,FailureHandling.CONTINUE_ON_FAILURE)
+	}
+
+	@Keyword
+	public void DatePicker(String erMonthYear, String erDate) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement aMonthYear = driver.findElement(By.xpath("//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]"))
+		while(!(aMonthYear.getText()).equals(erMonthYear)){
+			driver.findElement(By.xpath("//div[contains(@class, 'days')]//table//tr[1]/th[contains(@class, 'next')]")).click();
+		}
+		System.out.println(aMonthYear.getText());
+		List<WebElement> date = driver.findElements(By.xpath("//div[contains(@class, 'days')]//table//tbody//td"));
+		for(WebElement e:date){
+			if ((e.getText()).equals(erDate)) {
+				e.click()
+				break;
+			}
+		}
+	}
+
+	@Keyword
+	public void SelectTravellers(String erAdults, String erChild) {
+		String numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtAdults'), "value")
+		System.out.println(numberOfAdults)
+		String numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtChild'), "value")
+		System.out.println(numberOfChild)
+		while(!numberOfAdults.equals(erAdults)) {
+			if(erAdults>numberOfAdults) {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnPlusAdults'))
+			}
+			else {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnMinusAdults'))
+			}
+			numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtAdults'), "value")
+		}
+		while(!numberOfChild.equals(erChild)) {
+			if(erChild>numberOfChild) {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnPlusChild'))
+			}
+			else {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnMinusChild'))
+			}
+			numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtChild'), "value")
+		}
 	}
 }
