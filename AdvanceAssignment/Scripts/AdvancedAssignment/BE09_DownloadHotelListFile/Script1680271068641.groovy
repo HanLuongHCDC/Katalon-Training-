@@ -24,23 +24,17 @@ CustomKeywords.'com.kms.VerifyPage.VerifyPage.InputEmailPasswordAndLogin'(Global
 
 
 'Step 2:'
-'Create a new hotel like BE-04'
-WebUI.click(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/btnAdd'), FailureHandling.STOP_ON_FAILURE)
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.CreateNewHotel'(oldName, oldDes, location)
-WebUI.click(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/btnSubmitWithAddData'), FailureHandling.STOP_ON_FAILURE)
+'''Click on "EXPORT INTO CSV" button'''
+WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE09_DownloadHotelListFile/exportCSV'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(GlobalVariable.timeOut)// Wait for file is downloaded
+'ER:'
+'Verify file csv is downloaded successfully'
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyFileDownloaded'(downloadedFile)
 
 
-'Step 3:'
-'''Click on "Edit" icon and change information'''
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedAssignment/BE06_ModifyHotelInformationByEditIcon/oldData'), FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE06_ModifyHotelInformationByEditIcon/btnEdit'), FailureHandling.STOP_ON_FAILURE)
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.ClearOldInformation'()
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.CreateNewHotel'(newName, newDes, newLocation)
-
-
-'Step 4:'
-'''Click on "SUBMIT" button'''
-WebUI.click(findTestObject('Object Repository/AdvancedAssignment/CreateNewHotel/btnSubmitWithUpdateData'), FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedAssignment/BE06_ModifyHotelInformationByEditIcon/newData'), FailureHandling.STOP_ON_FAILURE)
+//'Step 3:'
+//'''Click on "PRINT" button'''
+//WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE09_DownloadHotelListFile/exportPrint'), FailureHandling.STOP_ON_FAILURE)
+//CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyFileDownloaded'(printFile)
 
 WebUI.closeBrowser()

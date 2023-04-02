@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE09_DownloadHotelListFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad24ba3d-9447-46ce-b819-d47077435979</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0af3bc9e-d2d7-41f2-bdb4-d94921aa19a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8a4ad36-167d-45c4-8567-0d49a402c9ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Pt_Hotels.csv'</defaultValue>
+      <description></description>
+      <id>0af3bc9e-d2d7-41f2-bdb4-d94921aa19a0</id>
+      <masked>false</masked>
+      <name>downloadedFile</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pt_Hotels (1).csv'</defaultValue>
+      <description></description>
+      <id>e8a4ad36-167d-45c4-8567-0d49a402c9ff</id>
+      <masked>false</masked>
+      <name>printFile</name>
+   </variable>
+</TestCaseEntity>

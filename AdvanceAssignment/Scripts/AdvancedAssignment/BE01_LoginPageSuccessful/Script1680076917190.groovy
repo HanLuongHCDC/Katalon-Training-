@@ -21,7 +21,7 @@ import org.openqa.selenium.WebDriver
 
 'Step 1:'
 'Go to https://phptravels.net/api/admin'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToLoginPage'()
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.LoginPage'(GlobalVariable.urlAdmin)
 
 
 'Step 2 and Step 3:'

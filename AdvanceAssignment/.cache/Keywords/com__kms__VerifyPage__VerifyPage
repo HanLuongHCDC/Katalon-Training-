@@ -1,21 +1,11 @@
 {
-  "keywordFileContentHash": "DE64E65E0DF2EBDA5A947D03A927D40B",
+  "keywordFileContentHash": "5E5094E391FF12311C2BD4FEC80AB779",
   "keywordClasses": [
     {
       "name": "com.kms.VerifyPage.VerifyPage",
       "keywordMethods": [
         {
-          "name": "NavigateToLoginPage",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "NavigateToHotelsPage",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "NavigateToPage",
+          "name": "LoginPage",
           "parameters": [
             {
               "name": "url",
@@ -30,8 +20,25 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "VerifyCurrentUrl",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "InputEmailPasswordAndLogin",
@@ -62,8 +69,38 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "LoginUser",
+          "parameters": [
+            {
+              "name": "email",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         },
         {
           "name": "BackgroundColorButton",
@@ -94,8 +131,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "GetElementSize",
@@ -126,8 +162,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "CreateNewHotel",
@@ -171,16 +206,54 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ClearOldInformation",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "VerifyFileDownloaded",
+          "parameters": [
+            {
+              "name": "downloadedFile",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "GetFormatDateTime",
+          "parameters": []
+        },
+        {
+          "name": "ParseFormat",
+          "parameters": [
+            {
+              "name": "TestObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

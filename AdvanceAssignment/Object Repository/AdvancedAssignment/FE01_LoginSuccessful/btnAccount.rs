@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnAccount</name>
+   <tag></tag>
+   <elementGuidId>2c1ec2c4-1f17-4036-b58a-e8775bf3279a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='ACCOUNT']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='ACCOUNT']</value>
+      <webElementGuid>5e43f39f-145c-44be-a672-5259613df748</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

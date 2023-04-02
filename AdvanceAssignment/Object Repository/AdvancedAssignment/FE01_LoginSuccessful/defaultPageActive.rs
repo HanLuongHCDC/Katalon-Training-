@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>defaultPageActive</name>
+   <tag></tag>
+   <elementGuidId>5c96ed0d-d094-42c4-b7a7-430f051c8684</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[contains(@class,'page-active')]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[contains(@class,'page-active')]//a</value>
+      <webElementGuid>6909adb8-3d4f-40b3-8b21-a45f05a94ed0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

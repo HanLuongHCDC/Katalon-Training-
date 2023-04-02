@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FE01_LoginSuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df581e2e-178e-4ad5-ac81-00d64b6c4f7a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a8a2917-7411-4fed-a725-e530e57c8cef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a399b9c2-06f9-47cc-b2e8-67f2fea6fdda</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9e5cc25-64da-40d6-832a-7bcba7728a2a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>359d24c5-dfc5-4054-944b-1d0e2c62989c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5cfe95c0-66ea-4c62-b5cd-8ccf0dfa1107</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://phptravels.net/login'</defaultValue>
+      <description></description>
+      <id>5a8a2917-7411-4fed-a725-e530e57c8cef</id>
+      <masked>false</masked>
+      <name>urlUserLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'Login - PHPTRAVELS'</defaultValue>
+      <description></description>
+      <id>a399b9c2-06f9-47cc-b2e8-67f2fea6fdda</id>
+      <masked>false</masked>
+      <name>titleLoginPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hi, Demo Welcome Back'</defaultValue>
+      <description></description>
+      <id>f9e5cc25-64da-40d6-832a-7bcba7728a2a</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>359d24c5-dfc5-4054-944b-1d0e2c62989c</id>
+      <masked>false</masked>
+      <name>leftMenuList</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('LeftMenuBar').getValue(1, 1), findTestData('LeftMenuBar').getValue(1, 2), findTestData('LeftMenuBar').getValue(1, 3), findTestData('LeftMenuBar').getValue(1, 4), findTestData('LeftMenuBar').getValue(1, 5)]</defaultValue>
+      <description></description>
+      <id>5cfe95c0-66ea-4c62-b5cd-8ccf0dfa1107</id>
+      <masked>false</masked>
+      <name>array</name>
+   </variable>
+</TestCaseEntity>

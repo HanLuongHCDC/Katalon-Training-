@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dateTime</name>
+   <tag></tag>
+   <elementGuidId>bd3a86d8-9a81-47e7-99b9-c7e96b59a905</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id='ct']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id='ct']</value>
+      <webElementGuid>264cb445-8418-4f54-bf6e-6610399d283f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

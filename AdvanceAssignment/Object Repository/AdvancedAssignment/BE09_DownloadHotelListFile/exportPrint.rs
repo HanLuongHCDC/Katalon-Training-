@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>exportPrint</name>
+   <tag></tag>
+   <elementGuidId>9e2f35c5-aff4-4079-a9fa-aa6e0425e2f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(.,'Print')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(.,'Print')]</value>
+      <webElementGuid>bf0f59f4-ca56-4200-814c-df8c7daac1a6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

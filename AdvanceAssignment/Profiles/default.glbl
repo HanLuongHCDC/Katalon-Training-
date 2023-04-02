@@ -29,4 +29,24 @@
       <initValue>'demoadmin'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net'</initValue>
+      <name>urlUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'user@phptravels.com'</initValue>
+      <name>userEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'demouser'</initValue>
+      <name>userPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>format</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

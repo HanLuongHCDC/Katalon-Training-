@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 'Step 1:'
 'Go to https://phptravels.net/api/admin'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToLoginPage'()
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.LoginPage'(GlobalVariable.urlAdmin)
 
 
 'Step 2:'
 'Click on "LOGIN" button with blank "Email" and "Password"'
-WebUI.click(findTestObject('Object Repository/AdvancedAssignment/btnLogin'))
+WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE_SameRepository/btnLogin'))
 'ER:'
 '"The Email field is required./nThe Password field is required." message is displayed'
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.urlAdmin, false, FailureHandling.CONTINUE_ON_FAILURE) //Verify Login unsuccessful

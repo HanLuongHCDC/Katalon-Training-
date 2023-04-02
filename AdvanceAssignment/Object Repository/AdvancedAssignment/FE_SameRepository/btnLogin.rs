@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnLogin</name>
+   <tag></tag>
+   <elementGuidId>8ff9d0c9-3c8d-4d72-8602-d41ad84c0b59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[./span[text()='Login']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[./span[text()='Login']]</value>
+      <webElementGuid>35910dcd-0289-43a4-91c4-c23393b2020c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

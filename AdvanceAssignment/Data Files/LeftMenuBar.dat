@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>LeftMenuBar</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c6e3b2a8-a0fe-43e8-b06d-108a37187262</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>+Dashboard</data>
+   <data>+My+Bookings</data>
+   <data>+Add+Funds</data>
+   <data>+My+Profile</data>
+   <data>+Logout</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>List Item</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

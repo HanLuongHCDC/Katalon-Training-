@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iconBar</name>
+   <tag></tag>
+   <elementGuidId>313ced67-a0e2-4125-9776-160e26beb11b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[text()='${bar}']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[text()='${bar}']/i</value>
+      <webElementGuid>d457ee2b-7124-46a1-aac5-92514073afc6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

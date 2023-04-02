@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 'Step 1:'
 'Navigate and login as Admin to page'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToLoginPage'()
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.LoginPage'(GlobalVariable.urlAdmin)
 CustomKeywords.'com.kms.VerifyPage.VerifyPage.InputEmailPasswordAndLogin'(GlobalVariable.email, GlobalVariable.password)
 
 
@@ -40,7 +40,7 @@ CustomKeywords.'com.kms.VerifyPage.VerifyPage.GetElementSize'(findTestObject('Ob
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfAccounts/accountsAdmins'))
 'ER:'
 'Navigate to Admins page successful'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToPage'(urlAdmins)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyCurrentUrl'(urlAdmins)
 
 
 'Step 4:'
@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfA
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfAccounts/accountsSuppliers'))
 'ER:'
 'Navigate to Suppliers page successful'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToPage'(urlSuppliers)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyCurrentUrl'(urlSuppliers)
 
 
 'Step 5:'
@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfA
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfAccounts/accountsAgents'))
 'ER:'
 'Navigate to Agents page successful'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToPage'(urlAgents)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyCurrentUrl'(urlAgents)
 
 
 'Step 6:'
@@ -67,7 +67,7 @@ WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfA
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfAccounts/accountsCustomers'))
 'ER:'
 'Navigate to Customers page successful'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToPage'(urlCustomers)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyCurrentUrl'(urlCustomers)
 
 
 'Step 7:'
@@ -76,6 +76,6 @@ WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfA
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/BE03_SubItemOfAccounts/accountsGuest'))
 'ER:'
 'Navigate to Guest Customers page successful'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToPage'(urlGuest)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.VerifyCurrentUrl'(urlGuest)
 
 WebUI.closeBrowser()

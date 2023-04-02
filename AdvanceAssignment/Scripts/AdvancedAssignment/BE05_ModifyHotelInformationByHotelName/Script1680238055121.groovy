@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 'Step 1:'
 'Navigate and login as Admin to page'
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.NavigateToHotelsPage'()
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.LoginPage'(GlobalVariable.urlHotels)
 CustomKeywords.'com.kms.VerifyPage.VerifyPage.InputEmailPasswordAndLogin'(GlobalVariable.email, GlobalVariable.password)
 
 
