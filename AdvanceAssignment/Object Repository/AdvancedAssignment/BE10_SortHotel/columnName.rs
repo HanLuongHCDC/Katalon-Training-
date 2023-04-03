@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>columnName</name>
+   <tag></tag>
+   <elementGuidId>6d9633ca-e989-4feb-9532-12a07b22920b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table//tr/th[contains(.,'Name')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table//tr/th[contains(.,'Name')]</value>
+      <webElementGuid>4f6b5d02-dae3-4e7c-8cd8-4f715b5de32a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

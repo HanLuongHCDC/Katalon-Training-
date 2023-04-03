@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hotelList</name>
+   <tag></tag>
+   <elementGuidId>dc804457-e965-4993-8f61-5d1d8a24d0ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table//tr/td/a[not(contains(.,'Upload'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table//tr/td/a[not(contains(.,'Upload'))]</value>
+      <webElementGuid>d280a99e-ce8e-49fa-ab2f-597f3920ce20</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

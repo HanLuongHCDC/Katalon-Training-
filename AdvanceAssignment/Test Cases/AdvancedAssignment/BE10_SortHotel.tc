@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE10_SortHotel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0517badc-dbe1-49c7-9b13-92443dbd2039</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>946a523e-d4c5-454c-991a-bc69d3113288</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2dfc7980-152a-453c-8015-fd9b7fe5be23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'//table//tr/td/a[not(contains(.,\'Upload\'))]'</defaultValue>
+      <description></description>
+      <id>946a523e-d4c5-454c-991a-bc69d3113288</id>
+      <masked>false</masked>
+      <name>columnName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//table//tr//i[contains(@class,\'star\')]//ancestor::td/following-sibling::td[1]'</defaultValue>
+      <description></description>
+      <id>2dfc7980-152a-453c-8015-fd9b7fe5be23</id>
+      <masked>false</masked>
+      <name>columnOwnerBy</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iconPost</name>
+   <tag></tag>
+   <elementGuidId>1894401a-24a5-434e-9f53-efd8dc21fc5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'peace-train')]/i[contains(@class,'icon')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'peace-train')]/i[contains(@class,'icon')]</value>
+      <webElementGuid>941b918c-6649-4933-86a6-0470493d2fd3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

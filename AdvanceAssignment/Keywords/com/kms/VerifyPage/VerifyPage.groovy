@@ -121,7 +121,7 @@ public class VerifyPage {
 			}
 		}
 	}
-	
+
 	@Keyword
 	public void SelectOptions(String eOption, String id) {
 		String aOption = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/numberOfOption', [('id') : id]), "value")
@@ -135,7 +135,7 @@ public class VerifyPage {
 			aOption = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/numberOfOption', [('id') : id]), "value")
 		}
 	}
-	
+
 	@Keyword
 	public void VerifyLocation() {
 		WebDriver driver = DriverFactory.getWebDriver()
@@ -151,6 +151,33 @@ public class VerifyPage {
 			}
 		}
 	}
+	
+	@Keyword
+	public void SortWebTable(Boolean ascending , String column) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		List<WebElement> list = driver.findElements(By.xpath(column))
+		List<String> originalList = new ArrayList<String>()
+		List<String> tempList = new ArrayList<String>()
+		for (int i=0; i< list.size(); i++) {
+			originalList.add(list.get(i).getText())
+			tempList.add(list.get(i).getText())
+		}
+		if(ascending) {
+			Collections.sort(tempList)//ascending
+			System.out.println(originalList)
+			System.out.println(tempList)
+		}
+		else {
+			Collections.sort(tempList, Collections.reverseOrder())//descending
+			}
+			if(tempList.equals(originalList)) {
+				KeywordUtil.markPassed("Sort function is working");
+			}
+			else {
+				KeywordUtil.markFailed("Sort function is not working");
+			}
+		}
+	
 }
 
 
