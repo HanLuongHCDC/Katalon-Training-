@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>childs</name>
+   <name>ddCityName</name>
    <tag></tag>
-   <elementGuidId>2db78078-f1e0-4688-a965-1d1421b1888a</elementGuidId>
+   <elementGuidId>eb772e1f-9cca-4ed6-a4a9-7c2f6fe97840</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='fchilds']</value>
+         <value>//span[contains(@class, 'selection')]//span[./span[contains(text(),'City')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='fchilds']</value>
-      <webElementGuid>dd9db6a8-3e8e-4016-ba37-5182013f1c75</webElementGuid>
+      <value>//span[contains(@class, 'selection')]//span[./span[contains(text(),'City')]]</value>
+      <webElementGuid>416acf91-4438-4032-acc3-e1942a2e6e3c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

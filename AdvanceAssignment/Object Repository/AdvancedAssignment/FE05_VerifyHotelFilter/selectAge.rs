@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtChild</name>
+   <name>selectAge</name>
    <tag></tag>
-   <elementGuidId>fd0532b4-9c11-4979-9e73-2844c1222632</elementGuidId>
+   <elementGuidId>c8db727c-d910-407a-bc3b-5f52fd9c2489</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='tours_child']</value>
+         <value>//select[contains(@id,'ages')]/option[text()='${age}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='tours_child']</value>
-      <webElementGuid>489d9888-7185-4189-98ac-9401cc2c220d</webElementGuid>
+      <value>//select[contains(@id,'ages')]/option[text()='${age}']</value>
+      <webElementGuid>9f6efa57-b316-4149-9026-877b7c72fcf8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

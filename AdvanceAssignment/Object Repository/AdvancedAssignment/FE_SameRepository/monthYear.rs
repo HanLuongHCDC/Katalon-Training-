@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>plusAdults</name>
+   <name>monthYear</name>
    <tag></tag>
-   <elementGuidId>04421892-a2df-4104-9983-5b4dbe91c59a</elementGuidId>
+   <elementGuidId>25094764-a87e-47c0-a255-cca453a9e6a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='fadults']]//i[contains(@class,'plus')]</value>
+         <value>//div[contains(@class,'datepicker')][${index}]//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='fadults']]//i[contains(@class,'plus')]</value>
-      <webElementGuid>e4a1dad8-b19c-4ff3-9f38-57be6fd20cd4</webElementGuid>
+      <value>//div[contains(@class,'datepicker')][${index}]//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]</value>
+      <webElementGuid>e16cca2f-1732-40b5-a661-89e67cc31046</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

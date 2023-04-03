@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnPlusChild</name>
+   <name>ddTravellers</name>
    <tag></tag>
-   <elementGuidId>bb800207-ccdb-4f0c-bf8e-1eaa5840c927</elementGuidId>
+   <elementGuidId>18ecfddd-c6ca-42b8-8963-b8a3085a7566</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='tours_child']]//i[contains(@class,'plus')]</value>
+         <value>//a[./p[contains(.,'Travellers')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='tours_child']]//i[contains(@class,'plus')]</value>
-      <webElementGuid>0e25420b-86cd-4792-b79a-e2fafbeeafaf</webElementGuid>
+      <value>//a[./p[contains(.,'Travellers')]]</value>
+      <webElementGuid>d1259356-a293-42e0-86bb-c659ced9476e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

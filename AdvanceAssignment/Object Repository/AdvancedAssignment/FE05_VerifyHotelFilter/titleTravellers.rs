@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtAdults</name>
+   <name>titleTravellers</name>
    <tag></tag>
-   <elementGuidId>4694b953-7624-4322-a6f3-91394f79ea76</elementGuidId>
+   <elementGuidId>5a66e19d-a01f-4b90-8a5a-504ffa450d5f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='tours_adults']</value>
+         <value>//p[contains(text(),'Adults')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='tours_adults']</value>
-      <webElementGuid>96146398-f382-4239-9eb8-9dfe28243788</webElementGuid>
+      <value>//p[contains(text(),'Adults')]</value>
+      <webElementGuid>39d6cd3a-dba3-4361-9f30-ccfb191790eb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>FE05</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>44714ad7-dd89-44fd-8608-4857076777b7</testSuiteGuid>
+   <testCaseLink>
+      <guid>e349baf2-e32f-4453-88ec-d5d931f84f3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AdvancedAssignment/FE05_VerifyHotelFilter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e11c0fd1-5263-4fd3-925f-0ef98884d27f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FilterHotelPage</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>City Name</value>
+         <variableId>2ea43132-6497-41ea-9ed0-53d2e16df90e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Month and Year Checkin</value>
+         <variableId>f595ef74-0afb-4958-b439-65a7e3d724c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date Checkin</value>
+         <variableId>95d2eb52-e8fc-4daf-8696-5d7f531bbb99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Month and Year Checkout</value>
+         <variableId>e07ec163-3b3e-49a0-b0e1-477464a62f7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date Checkout</value>
+         <variableId>b71a7261-1969-48ff-b096-437ba9e896b3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Rooms</value>
+         <variableId>ce1051cc-152d-4cc3-a47a-0263a18780f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Adults</value>
+         <variableId>3177acb5-8238-4b50-bfdb-747017f921b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Childs</value>
+         <variableId>dd17aebf-98b6-45cb-95ea-26281750ea29</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nationality</value>
+         <variableId>d388eb5c-072b-4cc9-a5ce-c8d0a073594d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e5520a7-ce02-422a-9f05-a846086950a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3404927a-180e-4792-bdf7-01831ed9d111</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1557127c-4675-4b81-8d91-da3df696e188</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Hotel List</value>
+         <variableId>e9be5533-e76c-48c4-b09b-231dad370b9d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nights</value>
+         <variableId>d24ccb48-537b-4e4c-8f0e-2732ff0742de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e11c0fd1-5263-4fd3-925f-0ef98884d27f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Child Age</value>
+         <variableId>d49a721d-f4ce-41d9-b177-0898fd3abb81</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

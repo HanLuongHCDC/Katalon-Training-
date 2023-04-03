@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>plusChilds</name>
+   <name>dateCheckin</name>
    <tag></tag>
-   <elementGuidId>7cf8e0b3-ff62-45a0-85af-ff6f06dfeee8</elementGuidId>
+   <elementGuidId>6a6b9318-a96e-4287-914a-4e1f71689dd9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='fchilds']]//i[contains(@class,'plus')]</value>
+         <value>//input[@id='checkin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='fchilds']]//i[contains(@class,'plus')]</value>
-      <webElementGuid>ff84e3e0-54c9-4bee-a1df-73e9c336c5bd</webElementGuid>
+      <value>//input[@id='checkin']</value>
+      <webElementGuid>3558a367-26a2-419a-91e8-aa82e50401e0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

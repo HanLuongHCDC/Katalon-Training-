@@ -106,14 +106,14 @@ public class VerifyPage {
 	}
 
 	@Keyword
-	public void DatePicker(String erMonthYear, String erDate) {
+	public void DatePicker(String erMonthYear, String erDate, int index) {
 		WebDriver driver = DriverFactory.getWebDriver()
-		WebElement aMonthYear = driver.findElement(By.xpath("//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]"))
+		WebElement aMonthYear = driver.findElement(By.xpath("//div[contains(@class,'datepicker')][${index}]//div[contains(@class,'datepicker-days')]//table//th[contains(@class,'switch')]"))
 		while(!(aMonthYear.getText()).equals(erMonthYear)){
-			driver.findElement(By.xpath("//div[contains(@class, 'days')]//table//tr[1]/th[contains(@class, 'next')]")).click();
+			driver.findElement(By.xpath("//div[contains(@class,'datepicker')][${index}]//div[contains(@class, 'days')]//table//tr[1]/th[contains(@class, 'next')]")).click();
 		}
 		System.out.println(aMonthYear.getText());
-		List<WebElement> date = driver.findElements(By.xpath("//div[contains(@class, 'days')]//table//tbody//td"));
+		List<WebElement> date = driver.findElements(By.xpath("//div[contains(@class,'datepicker')][${index}]//div[contains(@class, 'days')]//table//tbody//td"));
 		for(WebElement e:date){
 			if ((e.getText()).equals(erDate)) {
 				e.click()
@@ -133,6 +133,22 @@ public class VerifyPage {
 				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/btnMinusTravellers', [('id') : id]))
 			}
 			aOption = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/numberOfOption', [('id') : id]), "value")
+		}
+	}
+	
+	@Keyword
+	public void VerifyLocation() {
+		WebDriver driver = DriverFactory.getWebDriver()
+		List<WebElement> location = driver.findElements(By.xpath("//p[./i[contains(@class, 'map-marker')]]"))
+		for(int i=0; i < location.size();i++ ) {
+			String country = location.get(i).findElement(By.xpath("//p[./i[contains(@class, 'map-marker')]]")).getText()
+			System.out.println(country)
+			if(country.equals("Dubai")) {
+				continue
+			}
+			else {
+				KeywordUtil.markFailed("Location is not correct")
+			}
 		}
 	}
 }

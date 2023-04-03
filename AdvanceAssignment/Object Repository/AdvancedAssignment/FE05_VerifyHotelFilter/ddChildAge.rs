@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnMinusChild</name>
+   <name>ddChildAge</name>
    <tag></tag>
-   <elementGuidId>e017c9ef-6628-4f30-ba3d-9b20af524715</elementGuidId>
+   <elementGuidId>cdea2c1f-f6e4-40f5-a2bb-91156197d572</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='tours_child']]//i[contains(@class,'minus')]</value>
+         <value>//select[contains(@id,'ages')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='tours_child']]//i[contains(@class,'minus')]</value>
-      <webElementGuid>e3279b41-5051-4913-bfb2-3a3757fb11de</webElementGuid>
+      <value>//select[contains(@id,'ages')]</value>
+      <webElementGuid>3bdbd353-4eab-4836-afb8-b9ecb92cb4bd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

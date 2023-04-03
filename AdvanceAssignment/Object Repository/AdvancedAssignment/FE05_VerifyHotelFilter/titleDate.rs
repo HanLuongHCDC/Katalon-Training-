@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnMinusTravellers</name>
+   <name>titleDate</name>
    <tag></tag>
-   <elementGuidId>beec0d24-c7ad-4897-b783-b4a62c5cd6c5</elementGuidId>
+   <elementGuidId>f28812b9-1efb-46e9-9242-0ce263667ac6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='${id}']]//i[contains(@class,'minus')]</value>
+         <value>//p[./strong[contains(.,'Nights')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='${id}']]//i[contains(@class,'minus')]</value>
-      <webElementGuid>943683fb-f2d8-4d23-a61f-81e4d934940f</webElementGuid>
+      <value>//p[./strong[contains(.,'Nights')]]</value>
+      <webElementGuid>74b4a815-24ca-4483-b999-edcbfb6d0d05</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

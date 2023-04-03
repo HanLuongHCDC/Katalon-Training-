@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnMinusAdults</name>
+   <name>ddNationality</name>
    <tag></tag>
-   <elementGuidId>24576a33-1807-4d8e-8497-f6ce943b3761</elementGuidId>
+   <elementGuidId>f6027fe1-4344-4b3c-82e4-defb998377e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='tours_adults']]//i[contains(@class,'minus')]</value>
+         <value>//select[@id='nationality']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='tours_adults']]//i[contains(@class,'minus')]</value>
-      <webElementGuid>2fd605a5-341b-45de-8941-17059146ba28</webElementGuid>
+      <value>//select[@id='nationality']</value>
+      <webElementGuid>df9774ce-f0b8-47a1-9164-787d30d972b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

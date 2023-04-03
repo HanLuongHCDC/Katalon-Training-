@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>infants</name>
+   <name>searchResult</name>
    <tag></tag>
-   <elementGuidId>1e32125e-b3c5-4f4a-896f-aae7e5793c48</elementGuidId>
+   <elementGuidId>9370f02b-64d4-4350-8ce7-d9256728ced5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='finfant']</value>
+         <value>//li[contains(text(),'Searching')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='finfant']</value>
-      <webElementGuid>415faf81-3c87-4c42-a122-0631e7ce3b90</webElementGuid>
+      <value>//li[contains(text(),'Searching')]</value>
+      <webElementGuid>81368276-8d78-499f-ad9a-8d1a525fa411</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

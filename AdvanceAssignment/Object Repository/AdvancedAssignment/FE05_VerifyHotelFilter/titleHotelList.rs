@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>plusInfants</name>
+   <name>titleHotelList</name>
    <tag></tag>
-   <elementGuidId>ce775465-f521-4eb5-a698-bd79ad719f95</elementGuidId>
+   <elementGuidId>058e2f74-e548-4bc0-96f4-66f8d0d8a04d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='finfant']]//i[contains(@class,'plus')]</value>
+         <value>//h2[contains(text(), 'Search')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='finfant']]//i[contains(@class,'plus')]</value>
-      <webElementGuid>884cdae1-13ce-4733-a0e3-2f6e1ee10821</webElementGuid>
+      <value>//h2[contains(text(), 'Search')]</value>
+      <webElementGuid>7ac72159-b968-4cfe-b173-40d18f943c89</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

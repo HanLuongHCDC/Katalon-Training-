@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>minusInfants</name>
+   <name>btnSearch</name>
    <tag></tag>
-   <elementGuidId>50f3d579-3b54-460a-ba36-8d03a20be497</elementGuidId>
+   <elementGuidId>402109a7-f01c-4b0b-8cb4-8a9570f7e3dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./input[@id='finfant']]//i[contains(@class,'minus')]</value>
+         <value>//button[@id='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./input[@id='finfant']]//i[contains(@class,'minus')]</value>
-      <webElementGuid>6d35059c-fdf9-409e-906a-1f94b45f2a14</webElementGuid>
+      <value>//button[@id='submit']</value>
+      <webElementGuid>08cc8ae4-5120-4545-9f94-910aa2fc15ac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
