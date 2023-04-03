@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "4CF7A20BCA3C0DF1C72B0C9E55428283",
+  "keywordFileContentHash": "13B6018F36962EFA1FCECD191AB189F9",
   "keywordClasses": [
     {
       "name": "com.kms.VerifyPage.VerifyPage",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "VerifyCurrentUrl",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "InputEmailPasswordAndLogin",
@@ -69,7 +71,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "LoginUser",
@@ -100,7 +103,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "BackgroundColorButton",
@@ -131,7 +135,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "GetElementSize",
@@ -162,7 +167,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "CreateNewHotel",
@@ -206,11 +212,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "ClearOldInformation",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "VerifyFileDownloaded",
@@ -228,7 +236,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "ParseFormat",
@@ -246,7 +255,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "DatePicker",
@@ -277,13 +287,14 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
-          "name": "SelectTravellers",
+          "name": "SelectOptions",
           "parameters": [
             {
-              "name": "erAdults",
+              "name": "eOption",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -296,7 +307,7 @@
               }
             },
             {
-              "name": "erChild",
+              "name": "id",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -308,54 +319,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
-        },
-        {
-          "name": "SelectPassengers",
-          "parameters": [
-            {
-              "name": "erAdults",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "erChild",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "erInfants",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

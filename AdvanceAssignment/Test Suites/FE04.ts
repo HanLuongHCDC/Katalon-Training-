@@ -68,5 +68,23 @@
          <value>Date</value>
          <variableId>c0ddc62f-fdad-4a24-a502-0c8524aee1da</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa4cc40a-c64e-4c32-a5cc-24bdc0af1bd7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>169d6b73-d449-4107-a82b-a50620c986b5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eca7fb8c-7cb2-44f8-9b6a-25c1e501fa39</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -36,7 +36,8 @@ String selectedDate = WebUI.getAttribute(findTestObject('Object Repository/Advan
 
 'Filter search Travellers'
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/ddTravellers'), FailureHandling.STOP_ON_FAILURE)
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.SelectTravellers'(numberOfAdults, numberOfChild)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.SelectOptions'(numberOfAdults, idAdults)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.SelectOptions'(numberOfChild, idChilds)
 
 'Click on Search button'
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnSearch'))

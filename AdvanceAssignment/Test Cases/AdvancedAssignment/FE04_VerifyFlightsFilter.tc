@@ -47,6 +47,24 @@
       <value></value>
       <variableId>c0ddc62f-fdad-4a24-a502-0c8524aee1da</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa4cc40a-c64e-4c32-a5cc-24bdc0af1bd7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>169d6b73-d449-4107-a82b-a50620c986b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eca7fb8c-7cb2-44f8-9b6a-25c1e501fa39</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -95,5 +113,26 @@
       <id>c0ddc62f-fdad-4a24-a502-0c8524aee1da</id>
       <masked>false</masked>
       <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>'fadults'</defaultValue>
+      <description></description>
+      <id>fa4cc40a-c64e-4c32-a5cc-24bdc0af1bd7</id>
+      <masked>false</masked>
+      <name>idAdults</name>
+   </variable>
+   <variable>
+      <defaultValue>'fchilds'</defaultValue>
+      <description></description>
+      <id>169d6b73-d449-4107-a82b-a50620c986b5</id>
+      <masked>false</masked>
+      <name>idChilds</name>
+   </variable>
+   <variable>
+      <defaultValue>'finfant'</defaultValue>
+      <description></description>
+      <id>eca7fb8c-7cb2-44f8-9b6a-25c1e501fa39</id>
+      <masked>false</masked>
+      <name>idInfants</name>
    </variable>
 </TestCaseEntity>

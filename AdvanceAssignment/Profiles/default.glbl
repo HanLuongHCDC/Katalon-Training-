@@ -59,4 +59,24 @@
       <initValue>'https://phptravels.net/flights'</initValue>
       <name>urlFlights</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/hotels'</initValue>
+      <name>urlUserHotel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/blog'</initValue>
+      <name>urlBlog</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/visa'</initValue>
+      <name>urlVisa</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/account/bookings'</initValue>
+      <name>urlBookings</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

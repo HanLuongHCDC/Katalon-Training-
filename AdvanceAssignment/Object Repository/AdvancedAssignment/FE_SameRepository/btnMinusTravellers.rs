@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnMinusTravellers</name>
+   <tag></tag>
+   <elementGuidId>beec0d24-c7ad-4897-b783-b4a62c5cd6c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id=${id}']]//i[contains(@class,'minus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id=${id}']]//i[contains(@class,'minus')]</value>
+      <webElementGuid>06620215-7c28-4482-99a9-51a2c4a3e327</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPlusTravellers</name>
+   <tag></tag>
+   <elementGuidId>3f231e00-a330-4c9c-b44e-21cb4efad8ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./input[@id='${id}']]//i[contains(@class,'plus')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./input[@id='${id}']]//i[contains(@class,'plus')]</value>
+      <webElementGuid>ba82e579-e132-4daa-b01e-f61ffd471b29</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

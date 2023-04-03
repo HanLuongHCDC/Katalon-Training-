@@ -121,67 +121,31 @@ public class VerifyPage {
 			}
 		}
 	}
-
-	@Keyword
-	public void SelectTravellers(String erAdults, String erChild) {
-		String numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtAdults'), "value")
-		System.out.println(numberOfAdults)
-		String numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtChild'), "value")
-		System.out.println(numberOfChild)
-		while(!numberOfAdults.equals(erAdults)) {
-			if(erAdults>numberOfAdults) {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnPlusAdults'))
-			}
-			else {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnMinusAdults'))
-			}
-			numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtAdults'), "value")
-		}
-		while(!numberOfChild.equals(erChild)) {
-			if(erChild>numberOfChild) {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnPlusChild'))
-			}
-			else {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/btnMinusChild'))
-			}
-			numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/txtChild'), "value")
-		}
-	}
 	
 	@Keyword
-	public void SelectPassengers(String erAdults, String erChild, String erInfants) {
-		String numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/adults'), "value")
-		System.out.println(numberOfAdults)
-		String numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/childs'), "value")
-		System.out.println(numberOfChild)
-		String numberOfInfants = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/infants'), "value")
-		System.out.println(numberOfInfants)
-		while(!numberOfAdults.equals(erAdults)) {
-			if(erAdults>numberOfAdults) {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/plusAdults'))
+	public void SelectOptions(String eOption, String id) {
+		String aOption = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/numberOfOption', [('id') : id]), "value")
+		while(!aOption.equals(eOption)) {
+			if(eOption>aOption) {
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/btnPlusTravellers', [('id') : id]))
 			}
 			else {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/minusAdults'))
+				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/btnMinusTravellers', [('id') : id]))
 			}
-			numberOfAdults = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/adults'), "value")
-		}
-		while(!numberOfChild.equals(erChild)) {
-			if(erChild>numberOfChild) {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/plusChilds'))
-			}
-			else {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/minusChilds'))
-			}
-			numberOfChild = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/childs'), "value")
-		}
-		while(!numberOfInfants.equals(erInfants)) {
-			if(erInfants>numberOfInfants) {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/plusInfants'))
-			}
-			else {
-				WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/minusInfants'))
-			}
-			numberOfInfants = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/infants'), "value")
+			aOption = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE_SameRepository/numberOfOption', [('id') : id]), "value")
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
