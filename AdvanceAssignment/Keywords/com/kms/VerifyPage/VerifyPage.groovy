@@ -177,6 +177,19 @@ public class VerifyPage {
 				KeywordUtil.markFailed("Sort function is not working");
 			}
 		}
+		
+		@Keyword
+		public void ThumbnailImage(TestObject1, TestObject2) {
+			String srcImage = WebUI.getAttribute(findTestObject(TestObject1), "src", FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.navigateToUrl(srcImage, FailureHandling.STOP_ON_FAILURE)
+			if(WebUI.getText(findTestObject(TestObject2)).equals("Not Found")) {
+				KeywordUtil.markFailed("No image is uploaded")
+			}
+			else {
+				KeywordUtil.markPassed("The image is uploaded")
+			}
+			
+		}
 	
 }
 

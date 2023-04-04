@@ -36,7 +36,7 @@
       <variableId>0d8b0606-3a9c-4667-ae35-2bad4d23cb7e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Admin'</defaultValue>
+      <defaultValue>'admin10'</defaultValue>
       <description></description>
       <id>d2b49dc3-3a0e-491c-9f38-2d0f54d65851</id>
       <masked>false</masked>

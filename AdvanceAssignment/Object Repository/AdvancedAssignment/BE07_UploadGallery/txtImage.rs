@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>clkUpload</name>
+   <name>txtImage</name>
    <tag></tag>
-   <elementGuidId>77452971-0e4b-4d37-9db5-dbe9286a5085</elementGuidId>
+   <elementGuidId>b3ab2fb9-5f5f-417e-a4a6-5f63a81c5579</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//table//tr[./td[./a[text()='admin10']]]//a[contains(text(),'Upload')]</value>
+         <value>//body</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table//tr[./td[./a[text()='admin10']]]//a[contains(text(),'Upload')]</value>
-      <webElementGuid>bfabd331-1c6e-4254-833b-f1886bb286ba</webElementGuid>
+      <value>//body</value>
+      <webElementGuid>94bbc24f-479a-4637-bc3f-d41107160ee1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

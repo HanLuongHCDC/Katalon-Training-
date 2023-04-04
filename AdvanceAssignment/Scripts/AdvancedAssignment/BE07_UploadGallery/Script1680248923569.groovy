@@ -43,6 +43,6 @@ WebUI.back(FailureHandling.STOP_ON_FAILURE)
 'ER:'
 'Verify image is uploaded for this hotel'
 WebUI.verifyElementText(findTestObject('Object Repository/AdvancedAssignment/BE07_UploadGallery/clkUpload'), upload, FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.verifyImagePresent(findTestObject('Object Repository/AdvancedAssignment/BE07_UploadGallery/img'))
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.ThumbnailImage'('Object Repository/AdvancedAssignment/BE07_UploadGallery/srcImage', 'Object Repository/AdvancedAssignment/BE07_UploadGallery/txtImage')
 
 WebUI.closeBrowser()

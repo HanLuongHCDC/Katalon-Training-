@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>clkUpload</name>
+   <name>srcImage</name>
    <tag></tag>
-   <elementGuidId>77452971-0e4b-4d37-9db5-dbe9286a5085</elementGuidId>
+   <elementGuidId>dc5faba5-c8b9-494a-b8d3-eb808e82c832</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//table//tr[./td[./a[text()='admin10']]]//a[contains(text(),'Upload')]</value>
+         <value>//table//tr//a[contains(text(),'admin')]//parent::td//preceding-sibling::td/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table//tr[./td[./a[text()='admin10']]]//a[contains(text(),'Upload')]</value>
-      <webElementGuid>bfabd331-1c6e-4254-833b-f1886bb286ba</webElementGuid>
+      <value>//table//tr//a[contains(text(),'admin')]//parent::td//preceding-sibling::td/img</value>
+      <webElementGuid>be6a8691-f99f-4fc8-adca-bcbf395fdf70</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
