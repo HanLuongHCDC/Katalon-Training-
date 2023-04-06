@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>biggestImg</name>
+   <tag></tag>
+   <elementGuidId>75cba16e-e01f-49fe-9a00-3fa49a532f34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'slider')]//img[@sizes]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'slider')]//img[@sizes]</value>
+      <webElementGuid>848e0f21-db18-4c34-afdb-e1c602af303c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

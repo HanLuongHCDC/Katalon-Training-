@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>smallImg</name>
+   <tag></tag>
+   <elementGuidId>8ff3b5ab-8093-4a80-bbde-e5219122da52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'slider')]//img[not(@sizes)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'slider')]//img[not(@sizes)]</value>
+      <webElementGuid>747c64ec-66b0-4229-b49f-b97f3b87503d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

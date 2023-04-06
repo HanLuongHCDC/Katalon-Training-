@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
-import java.awt.Robot;
+import java.awt.Robot
 import java.awt.event.KeyEvent
 
 public class VerifyPage {
