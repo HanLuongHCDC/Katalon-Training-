@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddFromCountry</name>
+   <tag></tag>
+   <elementGuidId>f818c3af-c65f-4b4d-a60f-4f8011a75c36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='from_country']//following-sibling::span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='from_country']//following-sibling::span</value>
+      <webElementGuid>80c098c7-caed-4089-9d83-535d7d29a514</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

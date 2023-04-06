@@ -33,7 +33,7 @@ WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyF
 
 'Filter search for Departure Date'
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/departureDate'), FailureHandling.CONTINUE_ON_FAILURE)
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.DatePicker'(monthYear, date)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.DatePicker'(monthYear, date, 1)
 String selectedDate = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE04_VerifyFlightsFilter/departureDate'), "value")
 
 '''Filter search for "Passengers"'''

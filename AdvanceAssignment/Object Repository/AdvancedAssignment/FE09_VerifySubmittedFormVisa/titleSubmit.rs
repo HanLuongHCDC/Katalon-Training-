@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titleSubmit</name>
+   <tag></tag>
+   <elementGuidId>3866182d-ff3a-4a04-bdf5-d2d62c11523d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'card-body')]//h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'card-body')]//h2</value>
+      <webElementGuid>29f98c38-5f1e-4b02-a3dc-2dcf1cbfb247</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

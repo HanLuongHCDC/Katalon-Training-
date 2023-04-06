@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtNotes</name>
+   <tag></tag>
+   <elementGuidId>831d1d15-3f01-45b2-9b94-c7d59667a21f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@name='notes']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@name='notes']</value>
+      <webElementGuid>ff351861-bc2f-43ec-ae8b-c271cc48c594</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtInformation</name>
+   <tag></tag>
+   <elementGuidId>833a5438-0620-4422-998e-2015bf2898ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='${info}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='${info}']</value>
+      <webElementGuid>ec8dc698-f1cf-4493-b9d9-a3d611781d5f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

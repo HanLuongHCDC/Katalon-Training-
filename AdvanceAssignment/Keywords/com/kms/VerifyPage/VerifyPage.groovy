@@ -191,7 +191,7 @@ public class VerifyPage {
 			KeywordUtil.markPassed("The image is uploaded")
 		}
 	}
-	
+
 	@Keyword
 	public void PrintPopUp(action) {
 		Robot robot = new Robot();

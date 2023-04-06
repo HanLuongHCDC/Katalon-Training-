@@ -31,7 +31,7 @@ WebUI.sendKeys(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyT
 
 'Filter search Date: Current Date'
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/inputDate'),FailureHandling.STOP_ON_FAILURE)
-CustomKeywords.'com.kms.VerifyPage.VerifyPage.DatePicker'(monthYear, date)
+CustomKeywords.'com.kms.VerifyPage.VerifyPage.DatePicker'(monthYear, date, 1)
 String selectedDate = WebUI.getAttribute(findTestObject('Object Repository/AdvancedAssignment/FE02_VerifyTourFilter/inputDate'), "value")//get date time to verify for the below step
 
 'Filter search Travellers'

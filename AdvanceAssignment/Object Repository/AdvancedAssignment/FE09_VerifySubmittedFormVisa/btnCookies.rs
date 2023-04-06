@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnCookies</name>
+   <tag></tag>
+   <elementGuidId>cbc7b571-9b60-491c-86d6-2a23191de45a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='cookie_stop']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='cookie_stop']</value>
+      <webElementGuid>8fa1bc5b-659d-4688-9104-32bd468a138b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

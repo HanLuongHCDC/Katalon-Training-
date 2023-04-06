@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>optionToCountry</name>
+   <tag></tag>
+   <elementGuidId>9d481369-9743-4536-aa9e-a52b48fcf75f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul[contains(@id,'to_country')]/li[text()='${toCountry}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul[contains(@id,'to_country')]/li[text()='${toCountry}']</value>
+      <webElementGuid>059f6620-0a08-4a98-959b-cdb58be94016</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

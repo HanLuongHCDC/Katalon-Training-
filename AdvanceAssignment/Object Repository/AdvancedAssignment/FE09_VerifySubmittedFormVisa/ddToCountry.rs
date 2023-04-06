@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddToCountry</name>
+   <tag></tag>
+   <elementGuidId>7b53ca9b-f62d-4ba1-b571-ab6594ad186f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='to_country']//following-sibling::span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='to_country']//following-sibling::span</value>
+      <webElementGuid>6e87c429-7d29-42a0-9932-d4ce53157519</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

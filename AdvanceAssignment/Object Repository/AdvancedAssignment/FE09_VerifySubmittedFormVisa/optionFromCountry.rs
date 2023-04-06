@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>optionFromCountry</name>
+   <tag></tag>
+   <elementGuidId>2218bf5b-9bf4-496b-bc35-55ab540f7081</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul[contains(@id,'from_country')]/li[text()='${fromCountry}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul[contains(@id,'from_country')]/li[text()='${fromCountry}']</value>
+      <webElementGuid>93f4357f-9b41-4d80-88e1-9d4b4ae047d6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
