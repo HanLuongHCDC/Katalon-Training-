@@ -13,7 +13,6 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'com.kms.VerifyPage.VerifyPage.LoginPage'(GlobalVariable.urlHotels)
 CustomKeywords.'com.kms.VerifyPage.VerifyPage.InputEmailPasswordAndLogin'(GlobalVariable.email, GlobalVariable.password)
 
-
 'Step 2:'
 '''Click on "ADD" button'''
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedAssignment/BE04_CreateNewHotelSuccessful/btnAdd'), FailureHandling.CONTINUE_ON_FAILURE)

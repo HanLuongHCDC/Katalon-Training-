@@ -25,7 +25,7 @@
       <name>downloadedFile</name>
    </variable>
    <variable>
-      <defaultValue>'Pt_Hotels (1).csv'</defaultValue>
+      <defaultValue>'print.pdf'</defaultValue>
       <description></description>
       <id>e8a4ad36-167d-45c4-8567-0d49a402c9ff</id>
       <masked>false</masked>

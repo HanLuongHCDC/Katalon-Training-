@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'newAdmin@phptravels.com'</initValue>
+      <initValue>'admin@phptravels.com'</initValue>
       <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -78,5 +78,15 @@
       <description></description>
       <initValue>'https://phptravels.net/account/bookings'</initValue>
       <name>urlBookings</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>longTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>shortTime</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

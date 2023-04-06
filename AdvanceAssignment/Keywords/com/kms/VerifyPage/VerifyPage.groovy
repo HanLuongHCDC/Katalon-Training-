@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
+import java.awt.Robot;
+import java.awt.event.KeyEvent
 
 public class VerifyPage {
 
@@ -151,7 +153,7 @@ public class VerifyPage {
 			}
 		}
 	}
-	
+
 	@Keyword
 	public void SortWebTable(Boolean ascending , String column) {
 		WebDriver driver = DriverFactory.getWebDriver()
@@ -169,28 +171,33 @@ public class VerifyPage {
 		}
 		else {
 			Collections.sort(tempList, Collections.reverseOrder())//descending
-			}
-			if(tempList.equals(originalList)) {
-				KeywordUtil.markPassed("Sort function is working");
-			}
-			else {
-				KeywordUtil.markFailed("Sort function is not working");
-			}
 		}
-		
-		@Keyword
-		public void ThumbnailImage(TestObject1, TestObject2) {
-			String srcImage = WebUI.getAttribute(findTestObject(TestObject1), "src", FailureHandling.CONTINUE_ON_FAILURE)
-			WebUI.navigateToUrl(srcImage, FailureHandling.STOP_ON_FAILURE)
-			if(WebUI.getText(findTestObject(TestObject2)).equals("Not Found")) {
-				KeywordUtil.markFailed("No image is uploaded")
-			}
-			else {
-				KeywordUtil.markPassed("The image is uploaded")
-			}
-			
+		if(tempList.equals(originalList)) {
+			KeywordUtil.markPassed("Sort function is working");
 		}
+		else {
+			KeywordUtil.markFailed("Sort function is not working");
+		}
+	}
+
+	@Keyword
+	public void ThumbnailImage(TestObject1, TestObject2) {
+		String srcImage = WebUI.getAttribute(findTestObject(TestObject1), "src", FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.navigateToUrl(srcImage, FailureHandling.STOP_ON_FAILURE)
+		if(WebUI.getText(findTestObject(TestObject2)).equals("Not Found")) {
+			KeywordUtil.markFailed("No image is uploaded")
+		}
+		else {
+			KeywordUtil.markPassed("The image is uploaded")
+		}
+	}
 	
+	@Keyword
+	public void PrintPopUp(action) {
+		Robot robot = new Robot();
+		robot.keyPress(action);
+		robot.keyRelease(action);
+	}
 }
 
 
