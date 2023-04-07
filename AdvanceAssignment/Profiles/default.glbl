@@ -89,4 +89,9 @@
       <initValue>3</initValue>
       <name>shortTime</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://phptravels.net/login'</initValue>
+      <name>urlUserLogin</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnViewVoucher</name>
+   <tag></tag>
+   <elementGuidId>99ff8f82-7b74-4aea-8fbf-b2dd4816a5aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table/tbody/tr[./th[contains(.,'hotels')]]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table/tbody/tr[./th[contains(.,'hotels')]]//a</value>
+      <webElementGuid>b21e0a39-e665-4ed5-9fc5-a525a54a2b5c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

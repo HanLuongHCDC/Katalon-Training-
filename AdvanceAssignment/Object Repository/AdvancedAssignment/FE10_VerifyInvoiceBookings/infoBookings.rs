@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>infoBookings</name>
+   <tag></tag>
+   <elementGuidId>70759254-958c-4c34-ac93-fcf26cb6d4f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table/tbody/tr[./th[contains(.,'hotels')]]//${tag}</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table/tbody/tr[./th[contains(.,'hotels')]]//${tag}</value>
+      <webElementGuid>9d40f48c-6fd9-42d4-936b-aa70489ff740</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
