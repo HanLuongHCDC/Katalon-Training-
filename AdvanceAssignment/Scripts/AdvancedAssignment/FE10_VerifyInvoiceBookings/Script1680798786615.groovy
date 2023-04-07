@@ -49,4 +49,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedAssignment/
 'Step 4:'
 ' Verify Invoice information details: Total Price match with Invote Price at step 2'
 String invoiceTotalPrice = WebUI.getText(findTestObject('Object Repository/AdvancedAssignment/FE10_VerifyInvoiceBookings/invoiceTotalPrice'), FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.verifyMatch(invoiceTotalPrice.split("USD ")[1], bookingTotalPrice.split("USD ")[1], false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(invoiceTotalPrice.split("USD ")[1], bookingTotalPrice.split("USD ")[1], false, FailureHandling.CONTINUE_ON_FAILURE)\
+
+WebUI.closeBrowser()
