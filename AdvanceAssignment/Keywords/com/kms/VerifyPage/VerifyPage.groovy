@@ -198,17 +198,6 @@ public class VerifyPage {
 		robot.keyPress(action);
 		robot.keyRelease(action);
 	}
-	
-	@Keyword
-	public void GetTextBookings(List<String> booking, int index) {
-		WebDriver driver = DriverFactory.getWebDriver()
-		List<WebElement> textBookings = driver.findElements(By.xpath("//table/tbody/tr[./th[contains(.,'hotels')]]/*"))
-		booking = new ArrayList<String>()
-		for(int i = 0; i < textBookings.size();i++) {
-			booking.add(textBookings.get(i).getText())
-		}
-		println(booking[index])
-	}
 }
 
 

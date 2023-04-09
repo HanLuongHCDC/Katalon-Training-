@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tabDefault</name>
+   <tag></tag>
+   <elementGuidId>ca66c24e-09f2-4bc8-a247-88b7883c9faa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='single-content-nav']//a[contains(@class,'active')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='single-content-nav']//a[contains(@class,'active')]</value>
+      <webElementGuid>8afd4bbd-ff8e-4861-97ca-fcd027b1ebd0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

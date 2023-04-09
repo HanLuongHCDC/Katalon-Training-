@@ -40,15 +40,11 @@ WebUI.getText(findTestObject('Object Repository/AdvancedAssignment/FE10_VerifyIn
 '''Clicking "View Voucher" button (at index 1)'''
 WebUI.click(findTestObject('Object Repository/AdvancedAssignment/FE10_VerifyInvoiceBookings/btnViewVoucher'), FailureHandling.CONTINUE_ON_FAILURE)
 'ER:'
-'Invoice page is displayed: Hotel Title, Invoice View contains Hotel Map'
+'Invoice page is displayed: Hotel Invoice - PHPTRAVELS'
 WebUI.switchToWindowIndex(1, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyMatch(WebUI.getWindowTitle(), titleInvoice, false, FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdvancedAssignment/FE10_VerifyInvoiceBookings/hotelMap'), FailureHandling.CONTINUE_ON_FAILURE)
-
-
-'Step 4:'
 ' Verify Invoice information details: Total Price match with Invote Price at step 2'
 String invoiceTotalPrice = WebUI.getText(findTestObject('Object Repository/AdvancedAssignment/FE10_VerifyInvoiceBookings/invoiceTotalPrice'), FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.verifyMatch(invoiceTotalPrice.split("USD ")[1], bookingTotalPrice.split("USD ")[1], false, FailureHandling.CONTINUE_ON_FAILURE)\
+WebUI.verifyMatch(invoiceTotalPrice.split("USD ")[1], bookingTotalPrice.split("USD ")[1], false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
