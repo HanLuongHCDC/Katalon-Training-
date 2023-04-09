@@ -56,8 +56,8 @@ public class VerifyPage {
 
 	@Keyword
 	public void BackgroundColorButton(TestObject, color) {
-		WebUI.verifyElementVisible(findTestObject(TestObject), FailureHandling.CONTINUE_ON_FAILURE)
-		String backgroundColor = WebUI.getCSSValue(findTestObject(TestObject), 'background-color')
+		WebUI.verifyElementVisible(TestObject, FailureHandling.CONTINUE_ON_FAILURE)
+		String backgroundColor = WebUI.getCSSValue(TestObject, 'background-color')
 		WebUI.verifyMatch(Color.fromString(backgroundColor).asRgb(), color, false, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 

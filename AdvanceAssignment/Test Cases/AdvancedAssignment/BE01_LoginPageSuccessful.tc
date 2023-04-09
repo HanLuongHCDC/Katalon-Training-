@@ -9,78 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>edb11582-864d-43be-b499-719068eb03d3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>502fc899-d249-4a63-992c-926f613f211d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f0f27b3c-33ce-4dcb-bcae-493b73705e20</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>11105454-9fc3-4dcb-a0e7-9a14ed655bcb</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a83e05f8-4027-4132-9b88-6f1efd07db13</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2c0ff73a-5de9-49b9-a722-fbfc9d9c7f77</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ecb0118b-6e74-4c06-b855-da4af9e5524e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b74f8161-ec8e-4c5c-bdc1-6239f59d3daf</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>661cec15-9f9a-4172-9340-3df3799103b1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ca3a2628-d874-4ccf-8f89-a3676350b3e3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3480cbe4-7774-4e0c-81fc-881805f9ac34</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>beac5a97-cc69-41cd-b468-21c6fba68155</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>84ebaa9d-6bc8-4fca-8b6a-f802ebc58904</variableId>
    </variableLinks>
    <variableLinks>
@@ -101,90 +29,30 @@
       <value></value>
       <variableId>c1ba1e65-dad2-4307-9044-edab3033b329</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'rgb(38, 166, 154)'</defaultValue>
-      <description></description>
-      <id>edb11582-864d-43be-b499-719068eb03d3</id>
-      <masked>false</masked>
-      <name>green</name>
-   </variable>
-   <variable>
-      <defaultValue>'rgb(255, 179, 0)'</defaultValue>
-      <description></description>
-      <id>502fc899-d249-4a63-992c-926f613f211d</id>
-      <masked>false</masked>
-      <name>yellow</name>
-   </variable>
-   <variable>
-      <defaultValue>'rgb(211, 47, 47)'</defaultValue>
-      <description></description>
-      <id>f0f27b3c-33ce-4dcb-bcae-493b73705e20</id>
-      <masked>false</masked>
-      <name>red</name>
-   </variable>
-   <variable>
-      <defaultValue>'rgb(0, 49, 188)'</defaultValue>
-      <description></description>
-      <id>11105454-9fc3-4dcb-a0e7-9a14ed655bcb</id>
-      <masked>false</masked>
-      <name>darkBlue</name>
-   </variable>
-   <variable>
-      <defaultValue>'rgb(156, 39, 176)'</defaultValue>
-      <description></description>
-      <id>a83e05f8-4027-4132-9b88-6f1efd07db13</id>
-      <masked>false</masked>
-      <name>purple</name>
-   </variable>
-   <variable>
-      <defaultValue>'rgb(0, 119, 255)'</defaultValue>
-      <description></description>
-      <id>2c0ff73a-5de9-49b9-a722-fbfc9d9c7f77</id>
-      <masked>false</masked>
-      <name>lightBlue</name>
-   </variable>
-   <variable>
-      <defaultValue>'Confrimed Bookings'</defaultValue>
-      <description></description>
-      <id>ecb0118b-6e74-4c06-b855-da4af9e5524e</id>
-      <masked>false</masked>
-      <name>confirmed</name>
-   </variable>
-   <variable>
-      <defaultValue>'Pending Bookings'</defaultValue>
-      <description></description>
-      <id>b74f8161-ec8e-4c5c-bdc1-6239f59d3daf</id>
-      <masked>false</masked>
-      <name>pending</name>
-   </variable>
-   <variable>
-      <defaultValue>'Cancelled Bookings'</defaultValue>
-      <description></description>
-      <id>661cec15-9f9a-4172-9340-3df3799103b1</id>
-      <masked>false</masked>
-      <name>cancelled</name>
-   </variable>
-   <variable>
-      <defaultValue>'Paid Bookings'</defaultValue>
-      <description></description>
-      <id>ca3a2628-d874-4ccf-8f89-a3676350b3e3</id>
-      <masked>false</masked>
-      <name>paid</name>
-   </variable>
-   <variable>
-      <defaultValue>'Unpaid Bookings'</defaultValue>
-      <description></description>
-      <id>3480cbe4-7774-4e0c-81fc-881805f9ac34</id>
-      <masked>false</masked>
-      <name>unpaid</name>
-   </variable>
-   <variable>
-      <defaultValue>'Refunded Bookings'</defaultValue>
-      <description></description>
-      <id>beac5a97-cc69-41cd-b468-21c6fba68155</id>
-      <masked>false</masked>
-      <name>refunded</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02d6eda5-794b-4eb0-8413-03879fae6464</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cd21df2-6927-4dcc-ac7e-daf16f7529d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50406203-82dc-4771-b1d9-238bf3294a9e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52270b52-6978-4bc4-8912-ce821169f10b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Revenue Breakdown 2023'</defaultValue>
       <description></description>
@@ -212,5 +80,33 @@
       <id>c1ba1e65-dad2-4307-9044-edab3033b329</id>
       <masked>false</masked>
       <name>btnDashboard</name>
+   </variable>
+   <variable>
+      <defaultValue>['confirmed', 'pending', 'cancelled', 'paid', 'unpaid', 'refunded']</defaultValue>
+      <description></description>
+      <id>02d6eda5-794b-4eb0-8413-03879fae6464</id>
+      <masked>false</masked>
+      <name>icon</name>
+   </variable>
+   <variable>
+      <defaultValue>['rgb(38, 166, 154)', 'rgb(255, 179, 0)', 'rgb(211, 47, 47)', 'rgb(0, 49, 188)', 'rgb(156, 39, 176)', 'rgb(0, 119, 255)']</defaultValue>
+      <description></description>
+      <id>2cd21df2-6927-4dcc-ac7e-daf16f7529d9</id>
+      <masked>false</masked>
+      <name>eColor</name>
+   </variable>
+   <variable>
+      <defaultValue>['Confrimed Bookings', 'Pending Bookings', 'Cancelled Bookings', 'Paid Bookings', 'Unpaid Bookings', 'Refunded Bookings']</defaultValue>
+      <description></description>
+      <id>50406203-82dc-4771-b1d9-238bf3294a9e</id>
+      <masked>false</masked>
+      <name>titleDashboard</name>
+   </variable>
+   <variable>
+      <defaultValue>['task_alt', 'event', 'clear', 'credit_score', 'production_quantity_limits', 'money_off']</defaultValue>
+      <description></description>
+      <id>52270b52-6978-4bc4-8912-ce821169f10b</id>
+      <masked>false</masked>
+      <name>aColor</name>
    </variable>
 </TestCaseEntity>

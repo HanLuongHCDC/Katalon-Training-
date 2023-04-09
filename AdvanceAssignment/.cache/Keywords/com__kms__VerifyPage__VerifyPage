@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "646741F13A3A18EF1B938647B7BEC6F5",
+  "keywordFileContentHash": "196CF0150E2CA37DA8AC9CBFB6ABC1A7",
   "keywordClasses": [
     {
       "name": "com.kms.VerifyPage.VerifyPage",
@@ -20,8 +20,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "VerifyCurrentUrl",
@@ -39,8 +38,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "InputEmailPasswordAndLogin",
@@ -71,8 +69,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "LoginUser",
@@ -103,8 +100,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "BackgroundColorButton",
@@ -135,8 +131,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "GetElementSize",
@@ -167,8 +162,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "CreateNewHotel",
@@ -212,13 +206,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ClearOldInformation",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "VerifyFileDownloaded",
@@ -236,8 +228,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ParseFormat",
@@ -255,8 +246,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "DatePicker",
@@ -300,8 +290,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "SelectOptions",
@@ -332,13 +321,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "VerifyLocation",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "SortWebTable",
@@ -369,8 +356,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ThumbnailImage",
@@ -401,8 +387,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "PrintPopUp",
@@ -420,11 +405,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

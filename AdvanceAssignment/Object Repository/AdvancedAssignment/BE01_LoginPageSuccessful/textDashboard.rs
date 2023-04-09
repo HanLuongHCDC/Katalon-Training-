@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textConfirmedBookings</name>
+   <name>textDashboard</name>
    <tag></tag>
-   <elementGuidId>1988f6b7-a3dd-4935-80ab-b0dc94e932e8</elementGuidId>
+   <elementGuidId>3d712c69-e130-4fa1-ba68-d0fdbfb023bd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='https://phptravels.net/api/admin/bookings/confirmed']//div[contains(@class, 'card-text')]</value>
+         <value>//a[@href='https://phptravels.net/api/admin/bookings/${icon}']//div[contains(@class, 'card-text')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='https://phptravels.net/api/admin/bookings/confirmed']//div[contains(@class, 'card-text')]</value>
-      <webElementGuid>a3a00815-7dc3-4aa7-a4b5-401d2b93bf1e</webElementGuid>
+      <value>//a[@href='https://phptravels.net/api/admin/bookings/${icon}']//div[contains(@class, 'card-text')]</value>
+      <webElementGuid>6f7c4202-f4fe-44db-8d1d-f3b676d2684a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iconRefundedBookings</name>
+   <name>iconBackgroundColor</name>
    <tag></tag>
-   <elementGuidId>7c0afb3e-1aa8-48f1-b50c-93db19ff2c38</elementGuidId>
+   <elementGuidId>56263be2-9c98-4a22-8b5a-aaae22537732</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[./i[text()='money_off']]</value>
+         <value>//div[./i[text()='${color}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[./i[text()='money_off']]</value>
-      <webElementGuid>618cdef0-ea71-4cae-8069-017f0275fc00</webElementGuid>
+      <value>//div[./i[text()='${color}']]</value>
+      <webElementGuid>9d3f0876-735c-49ca-8d38-a67da35b27d3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
