@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titlePage</name>
+   <tag></tag>
+   <elementGuidId>fc4799d0-f5f9-4829-852a-c25ea6dd919a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'header-title')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'header-title')]</value>
+      <webElementGuid>ae8ce19a-1c54-4d3a-9a60-6710e9bf7164</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

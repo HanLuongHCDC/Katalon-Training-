@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>userNameControl</name>
+   <tag></tag>
+   <elementGuidId>c664620f-1410-4096-b46c-8b6067f83a73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[contains(@class,'active')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[contains(@class,'active')]</value>
+      <webElementGuid>00899e77-51d5-4310-8c09-d2c06c8e39bc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_VerifyLoginFunction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08895ff7-3b08-4f45-8b9d-190dad097306</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2724d163-b364-4d6c-8eaa-e37b3e683f94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2758be1-e491-464e-a37d-a4fab127209b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dashboard'</defaultValue>
+      <description></description>
+      <id>2724d163-b364-4d6c-8eaa-e37b3e683f94</id>
+      <masked>false</masked>
+      <name>selectedPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'OrangeHRM'</defaultValue>
+      <description></description>
+      <id>f2758be1-e491-464e-a37d-a4fab127209b</id>
+      <masked>false</masked>
+      <name>pageTitle</name>
+   </variable>
+</TestCaseEntity>

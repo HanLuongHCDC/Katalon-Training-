@@ -1,0 +1,19 @@
+{
+  "keywordFileContentHash": "B394FC36797A8A5483A434907A92D1D7",
+  "keywordClasses": [
+    {
+      "name": "com.kms.commonKeywords.commonKeywords",
+      "keywordMethods": [
+        {
+          "name": "logInPage",
+          "parameters": []
+        },
+        {
+          "name": "VerifyFilterSearchMenu",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

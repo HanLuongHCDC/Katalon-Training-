@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logout</name>
+   <tag></tag>
+   <elementGuidId>78b4dee6-af22-4012-9df1-d12b4ab56dc5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[contains(@class,'active')]/ul//a[text()='Logout']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[contains(@class,'active')]/ul//a[text()='Logout']</value>
+      <webElementGuid>96379f5c-30af-41fd-a88c-13211c26c925</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
