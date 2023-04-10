@@ -17,6 +17,18 @@
       <value></value>
       <variableId>7aeece49-3cc6-4535-823f-7b03f0454ba2</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fde0a43f-cc6c-4db3-bb0a-fbe817e7bca6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d251ad04-4a75-4768-8097-6ae75e30fbe9</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Hotel Invoice - PHPTRAVELS'</defaultValue>
       <description></description>
@@ -30,5 +42,19 @@
       <id>7aeece49-3cc6-4535-823f-7b03f0454ba2</id>
       <masked>false</masked>
       <name>info</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hotels'</defaultValue>
+      <description></description>
+      <id>fde0a43f-cc6c-4db3-bb0a-fbe817e7bca6</id>
+      <masked>false</masked>
+      <name>selectedTab</name>
+   </variable>
+   <variable>
+      <defaultValue>'Confirmed'</defaultValue>
+      <description></description>
+      <id>d251ad04-4a75-4768-8097-6ae75e30fbe9</id>
+      <masked>false</masked>
+      <name>status</name>
    </variable>
 </TestCaseEntity>
