@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>avatarUploadPicture</name>
+   <tag></tag>
+   <elementGuidId>10c5e317-564b-4645-b333-aeb6351bc09c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type='file']//following-sibling::div//img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@type='file']//following-sibling::div//img</value>
+      <webElementGuid>979a7cad-6fd8-4036-8093-0b892b20027e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

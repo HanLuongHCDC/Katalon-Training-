@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_VerifyUpdateProfilePicture</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0078c6da-8ef6-47c3-8f0c-a9930ce16cf1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73271903-bab0-4d21-b101-c82cfb380a99</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42f024e7-e873-4152-bb05-159982661299</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d35d9df-add9-4191-b393-dce6863ca06f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af280399-176c-4aef-a2b4-833d4b49ed98</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'My Info'</defaultValue>
+      <description></description>
+      <id>73271903-bab0-4d21-b101-c82cfb380a99</id>
+      <masked>false</masked>
+      <name>clkItem</name>
+   </variable>
+   <variable>
+      <defaultValue>'PIM'</defaultValue>
+      <description></description>
+      <id>42f024e7-e873-4152-bb05-159982661299</id>
+      <masked>false</masked>
+      <name>titlePage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Change Profile Picture'</defaultValue>
+      <description></description>
+      <id>9d35d9df-add9-4191-b393-dce6863ca06f</id>
+      <masked>false</masked>
+      <name>changeProfileTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dashboard'</defaultValue>
+      <description></description>
+      <id>af280399-176c-4aef-a2b4-833d4b49ed98</id>
+      <masked>false</masked>
+      <name>selectedPage</name>
+   </variable>
+</TestCaseEntity>

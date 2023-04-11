@@ -67,4 +67,4 @@ CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyFilterSearchMenu'(tx
 
 'Step 6:'
 '''Click to "Dashboard" menu'''
-WebUI.click(findTestObject('Object Repository/TC002_VerifyMainMenu/clkItem', [('item') : clkItem]), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.CONTINUE_ON_FAILURE)
