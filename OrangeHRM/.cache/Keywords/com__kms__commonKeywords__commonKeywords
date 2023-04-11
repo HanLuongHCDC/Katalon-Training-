@@ -1,19 +1,35 @@
 {
-  "keywordFileContentHash": "B394FC36797A8A5483A434907A92D1D7",
+  "keywordFileContentHash": "06C87B31924C96CB680E9E12DC23C532",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.commonKeywords",
       "keywordMethods": [
         {
           "name": "logInPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "VerifyFilterSearchMenu",
-          "parameters": []
+          "parameters": [
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -50,4 +50,21 @@ WebUI.verifyElementNotPresent(findTestObject('Object Repository/TC002_VerifyMain
 
 'Step 4:'
 '''Type to Search textbox "My Info"'''
-WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), txtSearch, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), txtSearch[0], FailureHandling.CONTINUE_ON_FAILURE)
+'''The menu can be filtered with "My Info"'''
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyFilterSearchMenu'(txtSearch[0])
+
+
+'Step 5:'
+'''Type to Search textbox"D"'''
+WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), Keys.chord(Keys.CONTROL,"a"), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), Keys.chord(Keys.BACK_SPACE), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), txtSearch[1], FailureHandling.CONTINUE_ON_FAILURE)
+'ER:'
+'''The menu can be filtered with "D"'''
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyFilterSearchMenu'(txtSearch[1])
+
+
+'Step 6:'
+'''Click to "Dashboard" menu'''
+WebUI.click(findTestObject('Object Repository/TC002_VerifyMainMenu/clkItem', [('item') : clkItem]), FailureHandling.CONTINUE_ON_FAILURE)

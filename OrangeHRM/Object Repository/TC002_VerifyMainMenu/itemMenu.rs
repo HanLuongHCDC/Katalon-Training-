@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtUserName</name>
+   <name>itemMenu</name>
    <tag></tag>
-   <elementGuidId>c518d8f7-c92d-4ab7-87f5-a3b0cbf2dea8</elementGuidId>
+   <elementGuidId>e20c8e8c-4762-4cb0-8b2e-37c659457b49</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@name='username']</value>
+         <value>//ul[contains(@class,'main-menu')]/li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>3cbce5b7-7930-43ce-bdbb-a1949509345c</webElementGuid>
+      <value>//ul[contains(@class,'main-menu')]/li</value>
+      <webElementGuid>650f665e-86b2-44f1-b131-555bfcb4d631</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

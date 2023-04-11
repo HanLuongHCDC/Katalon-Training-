@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtUserName</name>
+   <name>clkItem</name>
    <tag></tag>
-   <elementGuidId>c518d8f7-c92d-4ab7-87f5-a3b0cbf2dea8</elementGuidId>
+   <elementGuidId>bd5a70b1-22d1-4a81-9775-2818bd3c1474</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@name='username']</value>
+         <value>//ul[contains(@class,'main-menu')]/li[contains(.,'${item}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>3cbce5b7-7930-43ce-bdbb-a1949509345c</webElementGuid>
+      <value>//ul[contains(@class,'main-menu')]/li[contains(.,'${item}')]</value>
+      <webElementGuid>b3c08051-b2ef-4b22-9939-a586373f325a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

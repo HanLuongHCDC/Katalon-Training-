@@ -11,17 +11,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3'</initValue>
+      <initValue>3</initValue>
       <name>shortTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'15'</initValue>
+      <initValue>15</initValue>
       <name>longTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'5'</initValue>
+      <initValue>5</initValue>
       <name>timeOut</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

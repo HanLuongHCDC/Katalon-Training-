@@ -17,6 +17,12 @@
       <value></value>
       <variableId>db5e7ef3-ebc2-4389-abfb-a67a4642f0ce</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79155330-811d-4dbe-b4e7-b361ec2502ae</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Dashboard'</defaultValue>
       <description></description>
@@ -25,10 +31,17 @@
       <name>selectedPage</name>
    </variable>
    <variable>
-      <defaultValue>'My Info'</defaultValue>
+      <defaultValue>['My Info', 'D']</defaultValue>
       <description></description>
       <id>db5e7ef3-ebc2-4389-abfb-a67a4642f0ce</id>
       <masked>false</masked>
       <name>txtSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dashboard'</defaultValue>
+      <description></description>
+      <id>79155330-811d-4dbe-b4e7-b361ec2502ae</id>
+      <masked>false</masked>
+      <name>clkItem</name>
    </variable>
 </TestCaseEntity>
