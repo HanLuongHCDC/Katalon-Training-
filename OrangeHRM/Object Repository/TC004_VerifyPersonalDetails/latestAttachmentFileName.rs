@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>latestAttachmentFileName</name>
+   <tag></tag>
+   <elementGuidId>60d959e0-1fc1-4044-9be9-dac4e8e4dcff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-card')][last()]//div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-card')][last()]//div[2]</value>
+      <webElementGuid>7a83515a-5f5a-480f-97a3-410a5501da12</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

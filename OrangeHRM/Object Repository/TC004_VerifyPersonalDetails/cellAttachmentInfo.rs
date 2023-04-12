@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cellAttachmentInfo</name>
+   <tag></tag>
+   <elementGuidId>21ec7857-52a1-4cd0-b3cf-0eb1fd103c4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-card')][${rowIndex}]//div[${cellIndex}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-card')][${rowIndex}]//div[${cellIndex}]</value>
+      <webElementGuid>2fbf1548-1d3e-4c99-a79f-412de8e18f57</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

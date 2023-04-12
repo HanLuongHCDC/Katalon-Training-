@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Admin'</initValue>
+      <initValue>'Odis.Admin'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin123'</initValue>
+      <initValue>'Odis.Admin123@@'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

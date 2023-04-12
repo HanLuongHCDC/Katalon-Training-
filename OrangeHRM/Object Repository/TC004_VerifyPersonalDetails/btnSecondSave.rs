@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSecondSave</name>
+   <tag></tag>
+   <elementGuidId>4659350e-34e6-4abd-9851-5089b9d9322b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'custom-fields')]//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'custom-fields')]//button[@type='submit']</value>
+      <webElementGuid>8a2fb6cf-f4c6-48a9-93f4-31a3bdd6ed0b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

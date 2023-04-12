@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>editableFormTitle</name>
+   <tag></tag>
+   <elementGuidId>7d49ed72-f1fa-40b4-9054-82b439d4102d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'attachment')]//h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'attachment')]//h6</value>
+      <webElementGuid>1ce53cc3-d707-41a5-a1f5-9673e2d3ea8b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

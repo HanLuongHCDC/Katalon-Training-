@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>changeProfile</name>
+   <name>ddBloodType</name>
    <tag></tag>
-   <elementGuidId>b8fd3fd6-3506-4c0a-a1e0-6ad76a030ae3</elementGuidId>
+   <elementGuidId>a0815c33-3ac9-4179-af59-6ebe47affd95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'edit-employee-content')]//h6</value>
+         <value>//label[text()='Blood Type']//parent::div//following-sibling::div//div[contains(@class,'text-input')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class, 'edit-employee-content')]//h6</value>
-      <webElementGuid>a5bc0427-8f84-4b55-b6e1-0a87285331dc</webElementGuid>
+      <value>//label[text()='Blood Type']//parent::div//following-sibling::div//div[contains(@class,'text-input')]</value>
+      <webElementGuid>4ffe871c-8591-454d-8032-535eb635416f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

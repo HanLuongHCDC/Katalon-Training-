@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtComment</name>
+   <tag></tag>
+   <elementGuidId>b8d4a55c-3a7f-48a7-a8c3-9f35f2601a67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[text()='Comment']//parent::div//following-sibling::div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[text()='Comment']//parent::div//following-sibling::div/textarea</value>
+      <webElementGuid>88551c22-1132-4317-b7aa-c7082d53ebb4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cellFileName</name>
+   <tag></tag>
+   <elementGuidId>6547578c-8b53-4c15-819c-34be99383a2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-body')]//descendant::div[contains(@class,'table-row')]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-body')]//descendant::div[contains(@class,'table-row')]/div[2]</value>
+      <webElementGuid>19cceb53-7174-4560-be83-3f19d3d9e172</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

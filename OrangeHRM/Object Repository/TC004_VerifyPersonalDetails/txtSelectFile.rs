@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtSelectFile</name>
+   <tag></tag>
+   <elementGuidId>77e2f776-353a-4858-a1f1-1dc4cffc92ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(text(),'${fileNameUploaded}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(text(),'${fileNameUploaded}')]</value>
+      <webElementGuid>10b4e70b-2ebf-4ba3-9255-962c67ad0025</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

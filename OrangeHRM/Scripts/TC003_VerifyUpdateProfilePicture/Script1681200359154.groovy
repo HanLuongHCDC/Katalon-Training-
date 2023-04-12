@@ -49,8 +49,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/CommonTestObject/title
 'Click to the user picture'
 WebUI.click(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/imgProfile'), FailureHandling.STOP_ON_FAILURE)
 'The change profile picture is displayed'
-WebUI.verifyElementVisible(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/changeProfile'), FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/changeProfile'), changeProfileTitle, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/subPageTitle'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/subPageTitle'), changeProfileTitle, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/avatarUploadPicture'), FailureHandling.CONTINUE_ON_FAILURE)
 
 
@@ -65,6 +65,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/TC003_VerifyUpdateProf
 'The change profile picture is still displayed'
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/avatarUploadPicture'), FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.verifyElementText(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/changeProfile'), changeProfileTitle, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/TC003_VerifyUpdateProfilePicture/subPageTitle'), changeProfileTitle, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnDownloadLatestAttachment</name>
+   <tag></tag>
+   <elementGuidId>d6f2ce06-d79e-4c8a-8de5-169bbee848f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-card')][last()]//button/i[contains(@class,'download')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-card')][last()]//button/i[contains(@class,'download')]</value>
+      <webElementGuid>e81dd835-0afc-44b6-aba5-0fca1fd8cf8d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

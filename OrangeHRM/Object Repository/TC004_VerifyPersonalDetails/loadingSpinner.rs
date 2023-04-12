@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>loadingSpinner</name>
+   <tag></tag>
+   <elementGuidId>aa21cae9-16b4-446d-a8ac-d3e5e0fea4d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'loading-spinner')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'loading-spinner')]</value>
+      <webElementGuid>4290a8e3-1b56-4aea-b08b-0e6eda7184b9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
