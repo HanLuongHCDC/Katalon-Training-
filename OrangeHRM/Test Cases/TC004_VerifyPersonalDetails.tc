@@ -65,6 +65,18 @@
       <value></value>
       <variableId>d0695d9d-77d0-4305-abd4-84b67cea5385</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4410ebfe-24da-4575-bbcf-c9a745f218f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c74714f8-b010-4c67-b1da-3b370145c04d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'My Info'</defaultValue>
       <description></description>
@@ -134,5 +146,19 @@
       <id>d0695d9d-77d0-4305-abd4-84b67cea5385</id>
       <masked>false</masked>
       <name>txtComment</name>
+   </variable>
+   <variable>
+      <defaultValue>'The selected record will be permanently deleted. Are you sure you want to continue?'</defaultValue>
+      <description></description>
+      <id>4410ebfe-24da-4575-bbcf-c9a745f218f0</id>
+      <masked>false</masked>
+      <name>bodyPopUp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Are you Sure?'</defaultValue>
+      <description></description>
+      <id>c74714f8-b010-4c67-b1da-3b370145c04d</id>
+      <masked>false</masked>
+      <name>headerPopUp</name>
    </variable>
 </TestCaseEntity>

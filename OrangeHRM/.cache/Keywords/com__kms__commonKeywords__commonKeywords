@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1590FFF866A92149D7413F79E33DC6CF",
+  "keywordFileContentHash": "C18F01D8320F160807F003D17D52C4C2",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.commonKeywords",
@@ -108,6 +108,37 @@
           "parameters": [
             {
               "name": "downloadedFile",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "VerifyRowDeleted",
+          "parameters": [
+            {
+              "name": "TestObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "eFile",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

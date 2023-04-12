@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'table-card')][last()]//button/i[contains(@class,'download')]</value>
+         <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'download')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'table-card')][last()]//button/i[contains(@class,'download')]</value>
-      <webElementGuid>e81dd835-0afc-44b6-aba5-0fca1fd8cf8d</webElementGuid>
+      <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'download')]</value>
+      <webElementGuid>b7b047de-face-4fa4-bc81-a027051569b5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

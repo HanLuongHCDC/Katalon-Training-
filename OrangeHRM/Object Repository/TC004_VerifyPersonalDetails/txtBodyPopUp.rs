@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>latestAttachmentFileName</name>
+   <name>txtBodyPopUp</name>
    <tag></tag>
-   <elementGuidId>60d959e0-1fc1-4044-9be9-dac4e8e4dcff</elementGuidId>
+   <elementGuidId>246e3f2a-4012-4041-96c5-dc565009f721</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'table-card')][last()]//div[2]</value>
+         <value>//div[contains(@class,'dialog-popup')]//div[contains(@class,'text')]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'table-card')][last()]//div[2]</value>
-      <webElementGuid>7a83515a-5f5a-480f-97a3-410a5501da12</webElementGuid>
+      <value>//div[contains(@class,'dialog-popup')]//div[contains(@class,'text')]/p</value>
+      <webElementGuid>eef89ee0-c28e-48b7-bad2-886733ba0547</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnEdit</name>
+   <name>txtHeaderPopUp</name>
    <tag></tag>
-   <elementGuidId>6108dc38-2f50-4244-a780-f4a2e9d68a04</elementGuidId>
+   <elementGuidId>5be4931e-218e-42bb-bab3-e26cd022df1c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'pencil')]</value>
+         <value>//div[contains(@class,'dialog-popup')]//div[contains(@class,'header')]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'pencil')]</value>
-      <webElementGuid>3b3f24d0-33c3-43c2-aee5-9ca23e1839e7</webElementGuid>
+      <value>//div[contains(@class,'dialog-popup')]//div[contains(@class,'header')]/p</value>
+      <webElementGuid>5ff6f935-5cde-41af-8444-325000e7b722</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

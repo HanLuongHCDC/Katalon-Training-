@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnEdit</name>
+   <name>btnPopUpDelete</name>
    <tag></tag>
-   <elementGuidId>6108dc38-2f50-4244-a780-f4a2e9d68a04</elementGuidId>
+   <elementGuidId>1302f86f-06c4-4b80-81d1-77fca1943e6a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'pencil')]</value>
+         <value>//div[contains(@class,'dialog-popup')]//button[contains(.,'Delete')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'pencil')]</value>
-      <webElementGuid>3b3f24d0-33c3-43c2-aee5-9ca23e1839e7</webElementGuid>
+      <value>//div[contains(@class,'dialog-popup')]//button[contains(.,'Delete')]</value>
+      <webElementGuid>d064219e-0a69-44fd-97e8-e32361ebb880</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

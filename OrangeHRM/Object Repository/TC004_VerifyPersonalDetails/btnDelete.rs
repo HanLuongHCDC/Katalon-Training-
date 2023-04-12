@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnEdit</name>
+   <name>btnDelete</name>
    <tag></tag>
-   <elementGuidId>6108dc38-2f50-4244-a780-f4a2e9d68a04</elementGuidId>
+   <elementGuidId>25de104c-582c-4182-8f0b-0f5ab4564022</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'pencil')]</value>
+         <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'trash')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'pencil')]</value>
-      <webElementGuid>3b3f24d0-33c3-43c2-aee5-9ca23e1839e7</webElementGuid>
+      <value>//div[contains(@class,'table-card')][${rowIndex}]//button/i[contains(@class,'trash')]</value>
+      <webElementGuid>52fc6dcc-a23c-45b1-a83d-2b8679d5a5fb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

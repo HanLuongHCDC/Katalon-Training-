@@ -106,4 +106,20 @@ public class commonKeywords {
 			KeywordUtil.markFailed("Download file failed")
 		}
 	}
+	
+	@Keyword
+	public void VerifyRowDeleted(TestObject, String eFile) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		List<WebElement> infoCell = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
+		for (int i=0; i < infoCell.size(); i++) {
+			String cell = infoCell.get(i).getText()
+			println(cell)
+		if(cell.equals(eFile)) {
+			KeywordUtil.markFailed("The image" + eFile + " hasn't deleted")
+		}
+		else {
+			KeywordUtil.markPassed("The image" + eFile + " is deleted")
+			}
+		}
+	}
 }
