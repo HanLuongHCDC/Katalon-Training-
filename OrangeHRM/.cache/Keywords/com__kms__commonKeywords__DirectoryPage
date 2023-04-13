@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FE6031A03B971EFB556233113F0CB99C",
+  "keywordFileContentHash": "C7C0B76D5DA646CF9BFB9CE6038CCC79",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.DirectoryPage",
@@ -26,6 +26,50 @@
               "type": {
                 "fullClassName": "java.lang.String",
                 "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "verifySortAscFunction",
+          "parameters": [
+            {
+              "name": "TestObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "ascending",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Boolean",
+                "unresolvedClassName": "Boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "isRemovedSort",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Boolean",
+                "unresolvedClassName": "Boolean",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
