@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titleEditForm</name>
+   <tag></tag>
+   <elementGuidId>f46dc98c-4ec8-4577-98f5-4c3b101cc45f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h6[contains(@class,'main-title')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h6[contains(@class,'main-title')]</value>
+      <webElementGuid>7afbbb71-3ac5-461f-9f45-961306de8441</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

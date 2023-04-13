@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>usernameEdited</name>
+   <tag></tag>
+   <elementGuidId>28807935-5c7f-4414-9093-091dfa85a508</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-card')][last()]//button[last()]//ancestor::div[contains(@class,'table-row')]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-card')][last()]//button[last()]//ancestor::div[contains(@class,'table-row')]/div[2]</value>
+      <webElementGuid>b08b5d6b-2d49-463f-a66e-5a0889b67d5b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

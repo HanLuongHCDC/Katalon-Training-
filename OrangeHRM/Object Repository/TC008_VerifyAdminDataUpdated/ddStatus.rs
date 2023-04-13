@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddStatus</name>
+   <tag></tag>
+   <elementGuidId>3fddcfae-3c5d-40b5-80f4-53a68e88cfc4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'Status')]//parent::div//following-sibling::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'Status')]//parent::div//following-sibling::div</value>
+      <webElementGuid>4eb5adc3-ef26-43a9-b649-cb92b97d89a2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

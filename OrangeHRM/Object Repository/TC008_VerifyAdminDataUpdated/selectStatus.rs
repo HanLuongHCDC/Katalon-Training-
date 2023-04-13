@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>selectStatus</name>
+   <tag></tag>
+   <elementGuidId>6a5dd838-8cde-4493-8cde-8a41705cd045</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'Status')]//parent::div//following-sibling::div//span[text()='${status}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'Status')]//parent::div//following-sibling::div//span[text()='${status}']</value>
+      <webElementGuid>f7bda4f3-f88d-41e2-95c0-e817e4291e4e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

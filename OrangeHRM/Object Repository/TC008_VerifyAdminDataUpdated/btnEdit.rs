@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnEdit</name>
+   <tag></tag>
+   <elementGuidId>a3000f4e-bca3-4e45-a347-910bb9c105cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-card')][last()]//button[last()]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-card')][last()]//button[last()]</value>
+      <webElementGuid>8999c8ef-232c-4e15-ada6-8eaeef88be5a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

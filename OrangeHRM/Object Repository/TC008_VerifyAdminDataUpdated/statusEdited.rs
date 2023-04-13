@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>statusEdited</name>
+   <tag></tag>
+   <elementGuidId>a375773d-7ae0-45e6-a383-e8bf7158e428</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='${username}']//parent::div//following-sibling::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='${username}']//parent::div//following-sibling::div[3]</value>
+      <webElementGuid>8acbdda6-a708-4f74-adc2-27568f1cc143</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
