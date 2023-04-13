@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>employeeNameDirectoryCard</name>
+   <tag></tag>
+   <elementGuidId>c4cce0b2-9d81-4d8c-a805-69465dbaef63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'directory-card')]/p[contains(@class,'directory-card-header')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'directory-card')]/p[contains(@class,'directory-card-header')]</value>
+      <webElementGuid>5ef10a6d-73f9-438c-ab0b-3da117841c13</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

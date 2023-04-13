@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddJobTitle</name>
+   <tag></tag>
+   <elementGuidId>b41d8e35-c942-48ba-868d-bcbb7711dba1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(text(),'Job')]//parent::div//following-sibling::div//div[contains(@class,'text-input')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(text(),'Job')]//parent::div//following-sibling::div//div[contains(@class,'text-input')]</value>
+      <webElementGuid>a323f389-79a4-4a94-b990-554837992717</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

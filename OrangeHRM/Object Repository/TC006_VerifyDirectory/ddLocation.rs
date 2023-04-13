@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddLocation</name>
+   <tag></tag>
+   <elementGuidId>9f745b36-3b1d-441a-91ab-7368f9806ff3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(text(),'Location')]//parent::div//following-sibling::div//div[contains(@class,'text-input')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(text(),'Location')]//parent::div//following-sibling::div//div[contains(@class,'text-input')]</value>
+      <webElementGuid>527f6899-e6a4-4e20-bf28-0c95f02699ee</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
