@@ -91,6 +91,8 @@ WebUI.sendKeys(findTestObject('Object Repository/TC005_VerifyPersonalDetails/inp
 WebUI.sendKeys(findTestObject('Object Repository/TC005_VerifyPersonalDetails/inputDateTo'), Keys.chord(Keys.BACK_SPACE), FailureHandling.CONTINUE_ON_FAILURE)
 'Select Date of Application To with a previous day value'
 WebUI.setText(findTestObject('Object Repository/TC005_VerifyPersonalDetails/inputDateTo'), dateToPrevious, FailureHandling.CONTINUE_ON_FAILURE)
+'Click on Search button'
+WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSearch'), FailureHandling.STOP_ON_FAILURE)
 'ER:'
 '''An error is displayed "To date should be after from date"'''
 WebUI.verifyElementText(findTestObject('Object Repository/TC005_VerifyPersonalDetails/msgErrorDateTo'), msgError, FailureHandling.CONTINUE_ON_FAILURE)
