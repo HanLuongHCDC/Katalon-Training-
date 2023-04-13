@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnReset</name>
+   <tag></tag>
+   <elementGuidId>50aedce8-8ad7-4e2c-936a-425f0718a02b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type='reset']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@type='reset']</value>
+      <webElementGuid>77593ca8-6b39-41d6-8a49-ef36f349694c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

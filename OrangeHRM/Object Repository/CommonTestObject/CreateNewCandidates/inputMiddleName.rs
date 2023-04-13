@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputMiddleName</name>
+   <tag></tag>
+   <elementGuidId>eb3910ec-05df-46cd-95b4-2864ed1c0ce4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='middleName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='middleName']</value>
+      <webElementGuid>aff668f1-0b88-4189-9569-5ed9902ac040</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

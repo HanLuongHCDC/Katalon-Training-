@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtInfo</name>
+   <tag></tag>
+   <elementGuidId>cffb7c66-652b-4be2-94c6-2dca5a67804c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'${txtHeader}')]//parent::div//following-sibling::div//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'${txtHeader}')]//parent::div//following-sibling::div//input</value>
+      <webElementGuid>04822a41-7c78-49d3-9c66-4b8ca84447f6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

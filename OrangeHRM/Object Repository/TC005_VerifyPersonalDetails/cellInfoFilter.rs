@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cellInfoFilter</name>
+   <tag></tag>
+   <elementGuidId>a38252dd-8641-4212-85db-08568e0599b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-body')]//descendant::div[contains(@class,'table-row')]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-body')]//descendant::div[contains(@class,'table-row')]/div</value>
+      <webElementGuid>4755bbbf-4b2c-4faa-be18-0b4b776ebebc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

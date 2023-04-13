@@ -1,12 +1,50 @@
 {
-  "keywordFileContentHash": "C18F01D8320F160807F003D17D52C4C2",
+  "keywordFileContentHash": "54EC93BCBD8400D3D08C519E1B6C7B42",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.commonKeywords",
       "keywordMethods": [
         {
           "name": "logInPage",
-          "parameters": []
+          "parameters": [
+            {
+              "name": "userName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "createNewAdminAccount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "createNewCandidates",
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "VerifyFilterSearchMenu",
@@ -24,7 +62,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "VerifyTitleTable",
@@ -52,7 +91,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "GetInfoCellFromTable",
@@ -83,7 +123,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "DeleteFileExistBeforeDownload",
@@ -101,7 +142,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "VerifyFileDownloadSuccessfully",
@@ -119,7 +161,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "VerifyRowDeleted",
@@ -150,10 +193,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

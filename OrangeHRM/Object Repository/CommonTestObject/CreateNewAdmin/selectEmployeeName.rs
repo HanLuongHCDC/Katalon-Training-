@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>selectEmployeeName</name>
+   <tag></tag>
+   <elementGuidId>4bdde8f4-2a41-45d4-9cc1-e9831357ba49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'Employee')]//parent::div//following-sibling::div//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'Employee')]//parent::div//following-sibling::div//span</value>
+      <webElementGuid>b3b7b8c1-b5e2-4f20-abd8-f9382f4b3cb0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

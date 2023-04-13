@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msgErrorDateTo</name>
+   <tag></tag>
+   <elementGuidId>51b02652-de0f-4a50-afb2-e6192213991e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./div[contains(@class,'date-input')]/input[@placeholder='To']]//parent::div//following-sibling::span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./div[contains(@class,'date-input')]/input[@placeholder='To']]//parent::div//following-sibling::span</value>
+      <webElementGuid>d8d50285-96b6-45ff-a036-2b0ef6de6332</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

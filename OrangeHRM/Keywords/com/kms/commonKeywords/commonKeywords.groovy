@@ -12,18 +12,76 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.Keys as Keys
 
 import internal.GlobalVariable
 
 public class commonKeywords {
 
 	@Keyword
-	public void logInPage() {
+	public void logInPage(String userName, String password) {
 		WebUI.maximizeWindow()
-		WebUI.setText(findTestObject('Object Repository/CommonTestObject/txtUserName'), GlobalVariable.username, FailureHandling.CONTINUE_ON_FAILURE)
-		WebUI.setText(findTestObject('Object Repository/CommonTestObject/txtPassword'), GlobalVariable.password, FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/txtUserName'), userName, FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/txtPassword'), password, FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/btnLogin'), FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.waitForPageLoad(GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
+	}
+
+	@Keyword
+	public void createNewAdminAccount() {
+		logInPage(GlobalVariable.username, GlobalVariable.password)
+		List<String> headerAddUser = ['User Role', 'Employee Name', 'Status', 'Username', 'Password', 'Confirm Password']
+		List<String> userRoleAddUser = ['Admin', 'ESS']
+		List<String> statusAddUser = ['Enabled', 'Disabled']
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'Admin']), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/btnAddAdminUser'), FailureHandling.STOP_ON_FAILURE)
+		'Enter Username'
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[3]]), 'Odis.Admin', FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/warningCharacterUsername'), GlobalVariable.timeOut, FailureHandling.CONTINUE_ON_FAILURE)
+		if(WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/existUsername'), GlobalVariable.timeOut, FailureHandling.CONTINUE_ON_FAILURE)) {
+			'Select User Role: Admin'
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/ddInfo', [('ddHeader') : headerAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/ddSelectItem', [('ddHeader') : headerAddUser[0], ('selectItem') : userRoleAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
+			'Select Employee Name'
+			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[1]]), 'o', FailureHandling.STOP_ON_FAILURE)
+			WebUI.waitForElementVisible(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/selectEmployeeName'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/selectEmployeeName'), FailureHandling.STOP_ON_FAILURE)
+			'Select Status: Enabled'
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/ddInfo', [('ddHeader') : headerAddUser[2]]), FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/ddSelectItem', [('ddHeader') : headerAddUser[2], ('selectItem') : statusAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
+			'Enter Password'
+			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[4]]), 'Odis.Admin123@@', FailureHandling.CONTINUE_ON_FAILURE)
+			'Enter Confirm Password'
+			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[5]]), 'Odis.Admin123@@', FailureHandling.CONTINUE_ON_FAILURE)
+			'Click Save button'
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSave'), FailureHandling.STOP_ON_FAILURE)
+			'Verify Loading Spinner is disappeared'
+			WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
+		}
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/userNameControl'), FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/logout'), FailureHandling.CONTINUE_ON_FAILURE)
+	}
+	
+	@Keyword
+	public void createNewCandidates() {
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/btnAdd'), FailureHandling.STOP_ON_FAILURE)
+		'Enter First Name'
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/inputFirstName'), 'Testing', FailureHandling.CONTINUE_ON_FAILURE)
+		'Enter Middle Name'
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/inputMiddleName'), 'Automation', FailureHandling.CONTINUE_ON_FAILURE)
+		'Enter Last Name'
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/inputLastName'), 'Demo', FailureHandling.CONTINUE_ON_FAILURE)
+		'Select Vacancy'
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/ddInfoCandidates'), FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/selectInfoCandidates'), FailureHandling.CONTINUE_ON_FAILURE)
+		'Enter Email'
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/inputEmail'), 'abc@example.com', FailureHandling.CONTINUE_ON_FAILURE)
+		'Enter Contact Number'
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/inputContact'), '12345678', FailureHandling.CONTINUE_ON_FAILURE)
+		'Upload Resume'
+		WebUI.uploadFile(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/uploadResume'), 'C:\\Users\\hanluong\\Downloads\\print.pdf', FailureHandling.CONTINUE_ON_FAILURE)
+		'Click on Save button'
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSave'), FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Keyword
@@ -78,7 +136,7 @@ public class commonKeywords {
 			KeywordUtil.markFailed("The image" + eFile + " is uploaded failed")
 		}
 	}
-	
+
 	@Keyword
 	public void DeleteFileExistBeforeDownload(String existFileName) {
 		def existFilePath = System.getProperty('user.home') + "/Downloads/" + existFileName
@@ -92,7 +150,7 @@ public class commonKeywords {
 			println("File is not existed. Ready to download")
 		}
 	}
-	
+
 	@Keyword
 	public void VerifyFileDownloadSuccessfully(String downloadedFile) {
 		def path = System.getProperty('user.home') + "/Downloads/"
@@ -106,7 +164,7 @@ public class commonKeywords {
 			KeywordUtil.markFailed("Download file failed")
 		}
 	}
-	
+
 	@Keyword
 	public void VerifyRowDeleted(TestObject, String eFile) {
 		WebDriver driver = DriverFactory.getWebDriver()
@@ -114,11 +172,11 @@ public class commonKeywords {
 		for (int i=0; i < infoCell.size(); i++) {
 			String cell = infoCell.get(i).getText()
 			println(cell)
-		if(cell.equals(eFile)) {
-			KeywordUtil.markFailed("The image" + eFile + " hasn't deleted")
-		}
-		else {
-			KeywordUtil.markPassed("The image" + eFile + " is deleted")
+			if(cell.equals(eFile)) {
+				KeywordUtil.markFailed("The image" + eFile + " hasn't deleted")
+			}
+			else {
+				KeywordUtil.markPassed("The image" + eFile + " is deleted")
 			}
 		}
 	}

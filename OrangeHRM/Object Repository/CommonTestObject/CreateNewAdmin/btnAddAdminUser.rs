@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnAddAdminUser</name>
+   <tag></tag>
+   <elementGuidId>22dbb4e9-240f-445b-ab67-60cceb498c14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[contains(.,'Add')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[contains(.,'Add')]</value>
+      <webElementGuid>3731d00c-5165-4ea3-a9c1-5b1815289b26</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

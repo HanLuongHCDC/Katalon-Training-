@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>selectInfoCandidates</name>
+   <tag></tag>
+   <elementGuidId>588731e2-42a9-40b5-8878-8db2e11af6b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'${headerCandidates}')]//parent::div//following-sibling::div//span[contains(.,'${ddItem}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'${headerCandidates}')]//parent::div//following-sibling::div//span[contains(.,'${ddItem}')]</value>
+      <webElementGuid>4fdac443-18f6-42e0-bc58-f8912715e5e0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

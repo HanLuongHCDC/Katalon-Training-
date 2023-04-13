@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>userNameControl</name>
+   <tag></tag>
+   <elementGuidId>7068cb72-7967-4326-90cc-c54b03f284b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[contains(@class,'userdropdown-icon')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//i[contains(@class,'userdropdown-icon')]</value>
+      <webElementGuid>7986a95e-8d6a-474c-bc38-f33aa44e57ca</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

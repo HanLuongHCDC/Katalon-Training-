@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>existUsername</name>
+   <tag></tag>
+   <elementGuidId>ed66efba-4283-4d17-b71e-e1a62c078973</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./label[contains(.,'Username')]]//parent::div//span[contains(.,'exist')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./label[contains(.,'Username')]]//parent::div//span[contains(.,'exist')]</value>
+      <webElementGuid>680c3d8e-e397-44c3-a5e6-35f4e9de5b17</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

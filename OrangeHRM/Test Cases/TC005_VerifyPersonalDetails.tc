@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_VerifyPersonalDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>357763bc-378a-41d5-bdf6-546225daf9d9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff8c5be7-ec05-4351-adec-e700d6e7fd79</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5d0f008-e89e-4c03-866b-af4a16c17879</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>926b5896-7821-42c3-90b0-613f21386b25</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28954d14-6be4-4db7-8529-c7332c764f7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e765b98-3538-4b4b-b092-4173a98d74f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05288ded-958b-4a19-a6c0-83ad9b48d7f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b700cbf4-c774-48bd-b142-3d7c252e6c97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e765f87-3347-412a-bfa5-da7b5747d80c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Recruitment'</defaultValue>
+      <description></description>
+      <id>ff8c5be7-ec05-4351-adec-e700d6e7fd79</id>
+      <masked>false</masked>
+      <name>clkItem</name>
+   </variable>
+   <variable>
+      <defaultValue>['Vacancy', 'Hiring Manager', 'Status']</defaultValue>
+      <description></description>
+      <id>a5d0f008-e89e-4c03-866b-af4a16c17879</id>
+      <masked>false</masked>
+      <name>headerCandidates</name>
+   </variable>
+   <variable>
+      <defaultValue>['Junior Account Assistant', 'Payroll Administrator', 'Sales Representative', 'Senior QA Lead', 'Senior Support Specialist', 'Software Engineer']</defaultValue>
+      <description></description>
+      <id>926b5896-7821-42c3-90b0-613f21386b25</id>
+      <masked>false</masked>
+      <name>optionVacancy</name>
+   </variable>
+   <variable>
+      <defaultValue>['Odis Adalwin', 'Linda Anderson', 'Dominic Chase', 'Paul Collings', 'Kevin Mathews']</defaultValue>
+      <description></description>
+      <id>28954d14-6be4-4db7-8529-c7332c764f7a</id>
+      <masked>false</masked>
+      <name>optionHiringManager</name>
+   </variable>
+   <variable>
+      <defaultValue>['Application Initiated', 'Shortlisted', 'Rejected', 'Interview Scheduled', 'Interview Passed', 'Interview Failed', 'Job Offered', 'Offer Declined', 'Hired']</defaultValue>
+      <description></description>
+      <id>5e765b98-3538-4b4b-b092-4173a98d74f4</id>
+      <masked>false</masked>
+      <name>optionStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>'Linda Jane Anderson'</defaultValue>
+      <description></description>
+      <id>05288ded-958b-4a19-a6c0-83ad9b48d7f6</id>
+      <masked>false</masked>
+      <name>fullNameManager</name>
+   </variable>
+   <variable>
+      <defaultValue>'-- Select --'</defaultValue>
+      <description></description>
+      <id>b700cbf4-c774-48bd-b142-3d7c252e6c97</id>
+      <masked>false</masked>
+      <name>txtResetInfo</name>
+   </variable>
+   <variable>
+      <defaultValue>'To date should be after from date'</defaultValue>
+      <description></description>
+      <id>9e765f87-3347-412a-bfa5-da7b5747d80c</id>
+      <masked>false</masked>
+      <name>msgError</name>
+   </variable>
+</TestCaseEntity>

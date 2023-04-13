@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddSelectItem</name>
+   <tag></tag>
+   <elementGuidId>2e5198c5-eeae-460b-a094-d547e760dec6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'${ddHeader}')]//parent::div//following-sibling::div//span[text()='${selectItem}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'${ddHeader}')]//parent::div//following-sibling::div//span[text()='${selectItem}']</value>
+      <webElementGuid>1e526966-e63a-44cd-b7ef-f454c3a8409b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

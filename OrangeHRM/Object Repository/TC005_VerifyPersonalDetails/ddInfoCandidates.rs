@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ddInfoCandidates</name>
+   <tag></tag>
+   <elementGuidId>e4352f62-a222-4237-a2b3-18820a909880</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(.,'${ddHeader}')]//parent::div//following-sibling::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(.,'${ddHeader}')]//parent::div//following-sibling::div</value>
+      <webElementGuid>5bcd5e35-f365-43e2-ab2f-f0fcacbeb618</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

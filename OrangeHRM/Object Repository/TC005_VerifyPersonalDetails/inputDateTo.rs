@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputDateTo</name>
+   <tag></tag>
+   <elementGuidId>09f03cb8-4024-4ee5-9f99-e1945ac33a9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'date-input')]/input[@placeholder='To']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'date-input')]/input[@placeholder='To']</value>
+      <webElementGuid>e415db2a-61b0-4e50-bb0f-39ea4b36fb53</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

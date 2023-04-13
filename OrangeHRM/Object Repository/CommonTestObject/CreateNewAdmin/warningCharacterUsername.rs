@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>warningCharacterUsername</name>
+   <tag></tag>
+   <elementGuidId>ac0c0099-51a2-453a-a38c-f12b871e7953</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./label[contains(.,'Username')]]//parent::div//span[contains(.,'characters')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./label[contains(.,'Username')]]//parent::div//span[contains(.,'characters')]</value>
+      <webElementGuid>cc368e46-ed05-4949-b751-72edc5619c57</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
