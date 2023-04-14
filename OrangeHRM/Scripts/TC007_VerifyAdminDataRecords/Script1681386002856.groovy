@@ -24,14 +24,16 @@ String clkItem = 'Admin'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'()
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
 CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Admin page'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 'Prepare data: the total records must be larger than 51 records'
-def recordData = WebUI.getText(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
-WebUI.verifyGreaterThan(recordData, 51, FailureHandling.CONTINUE_ON_FAILURE)
+def recordData = 51
+CustomKeywords.'com.kms.commonKeywords.AdminPage.creatTotalRecordAdminUser'(recordData)
+//def recordData = WebUI.getText(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
+//WebUI.verifyGreaterThan(recordData, 51, FailureHandling.CONTINUE_ON_FAILURE)
 
 
 'Step 1:'

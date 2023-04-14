@@ -26,7 +26,7 @@ String statusEdited = 'Disabled'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'()
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
 CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Admin page'
@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Object Repository/TC008_VerifyAdminDataUpdated/selec
 WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSave'), FailureHandling.STOP_ON_FAILURE)
 'ER:'
 'Update successfully'
-'''A Pop up is displayed with "Success Successfully Saved"'''
+'''A Pop up is displayed with "Success Successfully Updated"'''
 WebUI.verifyElementVisible(findTestObject('Object Repository/CommonTestObject/popUp'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('Object Repository/CommonTestObject/popUp'), ePopUpUpdated, FailureHandling.CONTINUE_ON_FAILURE)
 'Page return to Admin'

@@ -27,8 +27,10 @@ String ePopUpUpdated = "Success\nSuccessfully Updated\n×"
 String ePopUpDeleted = "Success\nSuccessfully Deleted\n×"
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
+'Create a new Admin'
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'()
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Click to My Info menu'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 

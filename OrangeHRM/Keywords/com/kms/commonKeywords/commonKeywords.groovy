@@ -28,7 +28,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void createNewAdminAccount() {
+	public void createNewAdminAccount(int indexUserRole, int indexStatus, String username, String password) {
 		logInPage(GlobalVariable.username, GlobalVariable.password)
 		List<String> headerAddUser = ['User Role', 'Employee Name', 'Status', 'Username', 'Password', 'Confirm Password']
 		List<String> userRoleAddUser = ['Admin', 'ESS']
@@ -36,23 +36,23 @@ public class commonKeywords {
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'Admin']), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/btnAddAdminUser'), FailureHandling.STOP_ON_FAILURE)
 		'Enter Username'
-		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[3]]), 'Odis.Admin', FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[3]]), username, FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/warningCharacterUsername'), GlobalVariable.timeOut, FailureHandling.CONTINUE_ON_FAILURE)
 		if(WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/existUsername'), GlobalVariable.timeOut, FailureHandling.CONTINUE_ON_FAILURE)) {
 			'Select User Role: Admin'
 			WebUI.click(findTestObject('Object Repository/CommonTestObject/ddInfo', [('ddHeader') : headerAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/ddSelectItem', [('ddHeader') : headerAddUser[0], ('selectItem') : userRoleAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/ddSelectItem', [('ddHeader') : headerAddUser[0], ('selectItem') : userRoleAddUser[indexUserRole]]), FailureHandling.STOP_ON_FAILURE)
 			'Select Employee Name'
 			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[1]]), 'o', FailureHandling.STOP_ON_FAILURE)
 			WebUI.waitForElementVisible(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/selectEmployeeName'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/selectEmployeeName'), FailureHandling.STOP_ON_FAILURE)
 			'Select Status: Enabled'
 			WebUI.click(findTestObject('Object Repository/CommonTestObject/ddInfo', [('ddHeader') : headerAddUser[2]]), FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/ddSelectItem', [('ddHeader') : headerAddUser[2], ('selectItem') : statusAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/ddSelectItem', [('ddHeader') : headerAddUser[2], ('selectItem') : statusAddUser[indexStatus]]), FailureHandling.STOP_ON_FAILURE)
 			'Enter Password'
-			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[4]]), 'Odis.Admin123@@', FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[4]]), password, FailureHandling.CONTINUE_ON_FAILURE)
 			'Enter Confirm Password'
-			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[5]]), 'Odis.Admin123@@', FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/txtInfo', [('txtHeader') : headerAddUser[5]]), password, FailureHandling.CONTINUE_ON_FAILURE)
 			'Click Save button'
 			WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSave'), FailureHandling.STOP_ON_FAILURE)
 			'Verify Loading Spinner is disappeared'
@@ -61,7 +61,7 @@ public class commonKeywords {
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/userNameControl'), FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/logout'), FailureHandling.CONTINUE_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	public void createNewCandidates() {
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/btnAdd'), FailureHandling.STOP_ON_FAILURE)

@@ -22,7 +22,7 @@ String clkItem = 'Directory'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'()
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
 CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Directory page'

@@ -30,7 +30,7 @@ String ePopUpText = "Success\nSuccessfully Saved\n×"
 String ePopUpUpdated = "Success\nSuccessfully Updated\n×"
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'()
+CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
 CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Recruitment page'

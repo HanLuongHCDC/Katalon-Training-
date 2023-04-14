@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009_VerifyAdminDataDeleted</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcb6beb8-67e5-44e0-bc44-0e85229e31cc</testCaseGuid>
+</TestCaseEntity>

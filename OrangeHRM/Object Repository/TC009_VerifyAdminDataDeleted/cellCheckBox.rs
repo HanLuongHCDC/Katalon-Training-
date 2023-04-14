@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cellCheckBox</name>
+   <tag></tag>
+   <elementGuidId>7c32a201-c1f3-4844-91bb-5dca4693fa6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'table-card')]//div[2]/div[text()='${username}']//parent::div//preceding-sibling::div//div[contains(@class,'cell-checkbox')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'table-card')]//div[2]/div[text()='${username}']//parent::div//preceding-sibling::div//div[contains(@class,'cell-checkbox')]</value>
+      <webElementGuid>748ba9b7-a67e-462d-999b-525ac19069d7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
