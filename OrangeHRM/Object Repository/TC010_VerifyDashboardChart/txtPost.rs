@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtPost</name>
+   <tag></tag>
+   <elementGuidId>989aa245-8db9-4e55-9e05-b58ea1e5aeb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@class,'post-input')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[contains(@class,'post-input')]</value>
+      <webElementGuid>a768accd-7544-4333-ab95-ff2acaa98c13</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,50 @@
+{
+  "keywordFileContentHash": "322841598301744E291C45FD96C56602",
+  "keywordClasses": [
+    {
+      "name": "com.kms.commonKeywords.BuzzPage",
+      "keywordMethods": [
+        {
+          "name": "getDate",
+          "parameters": []
+        },
+        {
+          "name": "getBuzzPost",
+          "parameters": [
+            {
+              "name": "testObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "userPost",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "getFullName",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

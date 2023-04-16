@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>titleBuzzNewsFeed</name>
+   <tag></tag>
+   <elementGuidId>e1930dfb-1843-4adf-9022-4ffc74ee7262</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[contains(@class,'buzz-newsfeed-title')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[contains(@class,'buzz-newsfeed-title')]</value>
+      <webElementGuid>9708bb56-5a6c-4b15-acec-7cbca08e6e0e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

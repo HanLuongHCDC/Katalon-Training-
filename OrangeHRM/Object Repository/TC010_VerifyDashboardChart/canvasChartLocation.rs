@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>canvasChartLocation</name>
+   <tag></tag>
+   <elementGuidId>fa7e0df4-35d5-44ee-b1bf-9dcc497cabd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[contains(.,'Location')]//ancestor::div[contains(@class,'widget-header')]//following-sibling::div[contains(@class,'widget-body')]//canvas</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[contains(.,'Location')]//ancestor::div[contains(@class,'widget-header')]//following-sibling::div[contains(@class,'widget-body')]//canvas</value>
+      <webElementGuid>13a60283-19f2-47ee-b6fc-ce9ea1d36966</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

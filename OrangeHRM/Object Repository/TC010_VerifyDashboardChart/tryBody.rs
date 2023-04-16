@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tryBody</name>
+   <tag></tag>
+   <elementGuidId>66b0ef48-1028-4b4e-a579-8d754c2596dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./div[./p[text()='${body}']]]//preceding-sibling::div//p[text()='${name}']//following-sibling::p[text()='${dateTime}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./div[./p[text()='${body}']]]//preceding-sibling::div//p[text()='${name}']//following-sibling::p[text()='${dateTime}']</value>
+      <webElementGuid>09b40726-c167-4076-aae2-c72554bf4dac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

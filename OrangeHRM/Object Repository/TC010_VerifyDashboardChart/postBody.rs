@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>postBody</name>
+   <tag></tag>
+   <elementGuidId>985a448a-cb66-4f9b-ae6b-47668248feb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'buzz-newsfeed-post')]//div[contains(@class,'grid-item')][${index}]//div[contains(@class,'post-body')]/p[contains(@class,'body-text')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'buzz-newsfeed-post')]//div[contains(@class,'grid-item')][${index}]//div[contains(@class,'post-body')]/p[contains(@class,'body-text')]</value>
+      <webElementGuid>e7c24de8-2e0c-4601-a49f-010636c5c798</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>totalLikes</name>
+   <tag></tag>
+   <elementGuidId>4d03695d-213e-4800-84a6-1ee1557975f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./div[./p[text()='${body}']]]//preceding-sibling::div//p[text()='${name}']//following-sibling::p[text()='${dateTime}']//ancestor::div[contains(@class,'buzz-post')]//following-sibling::div[contains(@class,'post-footer')]//p[contains(.,'Like')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./div[./p[text()='${body}']]]//preceding-sibling::div//p[text()='${name}']//following-sibling::p[text()='${dateTime}']//ancestor::div[contains(@class,'buzz-post')]//following-sibling::div[contains(@class,'post-footer')]//p[contains(.,'Like')]</value>
+      <webElementGuid>f5840391-7a8e-472e-a8ca-70bd799188ca</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

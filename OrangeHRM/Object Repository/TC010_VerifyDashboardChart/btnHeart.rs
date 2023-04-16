@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnHeart</name>
+   <tag></tag>
+   <elementGuidId>b5e38766-a49e-4721-91df-f8b982ebe3d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[./div[./p[text()='${body}']]]//preceding-sibling::div//p[text()='${name}']//following-sibling::p[text()='${dateTime}']//ancestor::div[contains(@class,'buzz-post')]//following-sibling::div[contains(@class,'post-footer')]//*[@id='heart-svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[./div[./p[text()='${body}']]]//preceding-sibling::div//p[text()='${name}']//following-sibling::p[text()='${dateTime}']//ancestor::div[contains(@class,'buzz-post')]//following-sibling::div[contains(@class,'post-footer')]//*[@id='heart-svg']</value>
+      <webElementGuid>51bf303e-3cbf-4f8e-a11e-412993677010</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dataChart</name>
+   <tag></tag>
+   <elementGuidId>55fe2861-15dd-43be-b368-aad06b349629</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='oxd-pie-chart-tooltip']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='oxd-pie-chart-tooltip']</value>
+      <webElementGuid>ba39b6e0-ce88-42cb-bad8-a55a09a0ec6b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

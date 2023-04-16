@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>postDateTime</name>
+   <tag></tag>
+   <elementGuidId>a2c2b386-30cf-4e17-8085-61bda471e865</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'buzz-newsfeed-post')]//div[contains(@class,'grid-item')][${index}]//p[contains(@class,'post-time')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'buzz-newsfeed-post')]//div[contains(@class,'grid-item')][${index}]//p[contains(@class,'post-time')]</value>
+      <webElementGuid>8e3af3ce-1cd6-40dd-bb33-b56c5b11f1ad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
