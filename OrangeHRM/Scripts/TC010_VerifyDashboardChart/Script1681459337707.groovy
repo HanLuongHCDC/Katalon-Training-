@@ -18,6 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
+import com.kms.commonKeywords.DashboardPage
+import com.kms.commonKeywords.BuzzPage
+import com.kms.commonKeywords.commonKeywords
 
 'Pre-condition'
 String clkItem = 'Dashboard'
@@ -26,28 +29,29 @@ String headerBuzzNewsfeed = 'Buzz Newsfeed'
 String post = 'Hello everyone'
 String username = '@@Admin@'
 String password = '123Admin@@'
+String location = 'New York Sales Office'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Add new admin user'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0, 0, username, password)
+commonKeywords.createNewAdminAccount(0, 0, username, password)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(username, password)
+commonKeywords.logInPage(username, password)
 'Get the full name of employee'
-String name = CustomKeywords.'com.kms.commonKeywords.BuzzPage.getFullName'()
+String name = BuzzPage.getFullName()
 'Navigate to Dashboard page'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 
 
 'Step 1:'
 'Look at Employee Distribution by Location and click to the orange piece'
-CustomKeywords.'com.kms.commonKeywords.DashboardPage.clickItemChartLocation'(findTestObject('Object Repository/TC010_VerifyDashboardChart/chartLocationItem'), 'New York Sales Office')
-WebUI.scrollToElement(findTestObject('Object Repository/TC010_VerifyDashboardChart/titleChartLocation'), 5)
-CustomKeywords.'com.kms.commonKeywords.DashboardPage.interactWithChart'()
+DashboardPage.clickItemChartLocation(findTestObject('Object Repository/TC010_VerifyDashboardChart/chartLocationItem'), location)
+WebUI.scrollToElement(findTestObject('Object Repository/TC010_VerifyDashboardChart/titleChartLocation'), GlobalVariable.timeOut)
+DashboardPage.interactWithChart()
 String txtPercent = WebUI.getText(findTestObject('Object Repository/TC010_VerifyDashboardChart/dataChart'), FailureHandling.CONTINUE_ON_FAILURE).split('\\(')[1].split('\\%')[0]
 println(txtPercent)
 'ER:'
 'Verify the New York Sales Office display correctly'
-def percent = CustomKeywords.'com.kms.commonKeywords.DashboardPage.percentChartLocation'()//Get percent of chart in Directory menu and compare with actual data get from chart in Dashboard menu
+def percent = DashboardPage.percentChartLocation()//Get percent of chart in Directory menu and compare with actual data get from chart in Dashboard menu
 WebUI.verifyEqual(txtPercent, percent, FailureHandling.CONTINUE_ON_FAILURE)
 
 
@@ -66,7 +70,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/TC010_VerifyDashboardC
 WebUI.setText(findTestObject('Object Repository/TC010_VerifyDashboardChart/txtPost'), post, FailureHandling.STOP_ON_FAILURE)
 'Click on Post button'
 WebUI.click(findTestObject('Object Repository/TC010_VerifyDashboardChart/btnPost'), FailureHandling.STOP_ON_FAILURE)
-String dateTime = CustomKeywords.'com.kms.commonKeywords.BuzzPage.getDate'()
+String dateTime = BuzzPage.getDate()
 'ER:'
 'The post will be posted successfully - Check the name and the post of user displays'
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC010_VerifyDashboardChart/tryBody',  [('name') : name, ('dateTime') : dateTime, ('body') : post]), FailureHandling.CONTINUE_ON_FAILURE)

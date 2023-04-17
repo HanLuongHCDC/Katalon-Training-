@@ -14,7 +14,7 @@ import internal.GlobalVariable
 public class DirectoryPage {
 
 	@Keyword
-	public void verifyInfoEmployeeInDirectory(TestObject, String eInfo) {
+	def static verifyInfoEmployeeInDirectory(TestObject, String eInfo) {
 		List<WebElement> infoEmployee = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
 		for(int i=0; i < infoEmployee.size(); i++) {
 			String info = infoEmployee.get(i).getText()
@@ -29,7 +29,7 @@ public class DirectoryPage {
 	}
 
 	@Keyword
-	public void verifySortAscFunction(TestObject, Boolean ascending, Boolean isRemovedSort) {
+	def static verifySortAscFunction(TestObject, Boolean ascending, Boolean isRemovedSort) {
 		List<WebElement> sortInfo = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
 		List<String> originalCell = new ArrayList<String>()
 		List<String> tempCell = new ArrayList<String>()

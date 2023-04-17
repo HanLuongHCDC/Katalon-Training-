@@ -16,7 +16,7 @@ import internal.GlobalVariable
 public class RecuitmentPage {
 
 	@Keyword
-	public void GetInfoCellFromTable(TestObject, String vacancy, String manager, String status) {
+	def static getInfoCellFromTable(TestObject, String vacancy, String manager, String status) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> infoCell = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
 		List<String> candidates = new ArrayList<String>()

@@ -21,7 +21,7 @@ import internal.GlobalVariable
 public class commonKeywords {
 
 	@Keyword
-	public void logInPage(String userName, String password) {
+	def static logInPage(String userName, String password) {
 		WebUI.maximizeWindow()
 		WebUI.setText(findTestObject('Object Repository/CommonTestObject/txtUserName'), userName, FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.setText(findTestObject('Object Repository/CommonTestObject/txtPassword'), password, FailureHandling.CONTINUE_ON_FAILURE)
@@ -30,7 +30,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void createNewAdminAccount(int indexUserRole, int indexStatus, String username, String password) {
+	def static createNewAdminAccount(int indexUserRole, int indexStatus, String username, String password) {
 		logInPage(GlobalVariable.username, GlobalVariable.password)
 		List<String> headerAddUser = ['User Role', 'Employee Name', 'Status', 'Username', 'Password', 'Confirm Password']
 		List<String> userRoleAddUser = ['Admin', 'ESS']
@@ -65,7 +65,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void createNewCandidates() {
+	def static createNewCandidates() {
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/btnAdd'), FailureHandling.STOP_ON_FAILURE)
 		'Enter First Name'
 		WebUI.setText(findTestObject('Object Repository/CommonTestObject/CreateNewCandidates/inputFirstName'), 'Testing', FailureHandling.CONTINUE_ON_FAILURE)
@@ -87,7 +87,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	String VerifyFilterSearchMenu(String text) {
+	def static verifyFilterSearchMenu(String text) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> numberOfItemMenu = driver.findElements(By.xpath("//ul[contains(@class,'main-menu')]/li"))
 		println("The number of item's menu: " + numberOfItemMenu.size())
@@ -104,7 +104,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void VerifyTitleTable(List<String> titleTable) {
+	def static verifyTitleTable(List<String> titleTable) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> element = driver.findElements(By.xpath("//div[contains(@class,'table-header-cell')]"))
 		println("The number of title are: " + element.size())
@@ -123,7 +123,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void GetInfoCellFromTable(TestObject, String eFile) {
+	def static getInfoCellFromTable(TestObject, String eFile) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> infoCell = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
 		List<String> listFileName = new ArrayList<String>()
@@ -140,7 +140,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void DeleteFileExistBeforeDownload(String existFileName) {
+	def static deleteFileExistBeforeDownload(String existFileName) {
 		def existFilePath = System.getProperty('user.home') + "/Downloads/" + existFileName
 		String filePath = existFilePath.replace("/", "\\")
 		File existFileBeforeDownload = new File(filePath)
@@ -154,7 +154,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void VerifyFileDownloadSuccessfully(String downloadedFile) {
+	def static verifyFileDownloadSuccessfully(String downloadedFile) {
 		def path = System.getProperty('user.home') + "/Downloads/"
 		String filePath = path.replace("/", "\\")
 		File downloadFolder = new File(filePath)
@@ -168,7 +168,7 @@ public class commonKeywords {
 	}
 
 	@Keyword
-	public void VerifyRowDeleted(TestObject, String eFile) {
+	def static verifyRowDeleted(TestObject, String eFile) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> infoCell = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
 		for (int i=0; i < infoCell.size(); i++) {

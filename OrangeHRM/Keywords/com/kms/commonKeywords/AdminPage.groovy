@@ -18,7 +18,7 @@ import internal.GlobalVariable
 public class AdminPage {
 
 	@Keyword
-	public void addNewAdmin(String role, String employee, String status, String username, String password) {
+	def static addNewAdmin(String role, String employee, String status, String username, String password) {
 		List<String> headerAddUser = ['User Role', 'Employee Name', 'Status', 'Username', 'Password', 'Confirm Password']
 		'Select User Role: Admin'
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/ddInfo', [('ddHeader') : headerAddUser[0]]), FailureHandling.STOP_ON_FAILURE)
@@ -44,7 +44,7 @@ public class AdminPage {
 	}
 
 	@Keyword
-	public void creatTotalRecordAdminUser(int eRecord) {
+	def static createTotalRecordAdminUser(int eRecord) {
 		def record = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
 		println(record)
 		int aRecord = Integer.parseInt(record)
@@ -60,7 +60,7 @@ public class AdminPage {
 	}
 
 	@Keyword
-	public List<String> GetInfoCellFromTable(TestObject, String username) {
+	def static GetInfoCellFromTable(TestObject, String username) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> infoCell = WebUiCommonHelper.findWebElements(TestObject, GlobalVariable.longTime)
 		List<String> listFileName = new ArrayList<String>()

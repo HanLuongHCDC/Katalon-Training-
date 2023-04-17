@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.commonKeywords.commonKeywords
+import com.kms.commonKeywords.RecuitmentPage
 
 'Pre-condition'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
@@ -30,9 +32,9 @@ String ePopUpText = "Success\nSuccessfully Saved\n×"
 String ePopUpUpdated = "Success\nSuccessfully Updated\n×"
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.createNewAdminAccount(0, 0, GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.logInPage(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Recruitment page'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 
@@ -55,8 +57,7 @@ WebUI.click(findTestObject('Object Repository/TC005_VerifyPersonalDetails/btnSea
 WebUI.verifyElementText(findTestObject('Object Repository/TC005_VerifyPersonalDetails/txtInfoSelected', [('ddHeader') : headerCandidates[0]]), vacancySelected, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('Object Repository/TC005_VerifyPersonalDetails/txtInfoSelected', [('ddHeader') : headerCandidates[1]]), managerSelected, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementText(findTestObject('Object Repository/TC005_VerifyPersonalDetails/txtInfoSelected', [('ddHeader') : headerCandidates[2]]), statusSelected, FailureHandling.CONTINUE_ON_FAILURE)
-CustomKeywords.'com.kms.commonKeywords.RecuitmentPage.GetInfoCellFromTable'(findTestObject('Object Repository/TC005_VerifyPersonalDetails/cellInfoFilter'), vacancySelected, fullNameManager, statusSelected)
-
+RecuitmentPage.getInfoCellFromTable(findTestObject('Object Repository/TC005_VerifyPersonalDetails/cellInfoFilter'), vacancySelected, fullNameManager, statusSelected)
 
 'Step 2:'
 'Click Reset button'
@@ -100,7 +101,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/TC005_VerifyPersonalDe
 
 'Step 6:'
 'Create a candidate and save the data'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewCandidates'()
+commonKeywords.createNewCandidates()
 'ER:'
 ''' A Pop up is displayed with: "Success Successful Saved"'''
 WebUI.verifyElementVisible(findTestObject('Object Repository/CommonTestObject/popUp'), FailureHandling.CONTINUE_ON_FAILURE)

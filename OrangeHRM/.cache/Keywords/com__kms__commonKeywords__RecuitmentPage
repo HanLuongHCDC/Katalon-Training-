@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "52EC4E681808851690B48DF1F959230E",
+  "keywordFileContentHash": "31C0ECAA75481A94444B6F539F37A36A",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.RecuitmentPage",
       "keywordMethods": [
         {
-          "name": "GetInfoCellFromTable",
+          "name": "getInfoCellFromTable",
           "parameters": [
             {
               "name": "TestObject",

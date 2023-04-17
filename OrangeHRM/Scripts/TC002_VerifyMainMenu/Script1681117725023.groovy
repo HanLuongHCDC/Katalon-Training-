@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.commonKeywords.commonKeywords
 
 'Precondition'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
@@ -24,9 +25,9 @@ WebUI.openBrowser(GlobalVariable.url)
 
 'Step 1:'
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.createNewAdminAccount(0, 0, GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.logInPage(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'ER:'
 'The Dashboard page is loaded successfully - User control is displayed'
 WebUI.verifyElementText(findTestObject('Object Repository/CommonTestObject/titlePage'), selectedPage, FailureHandling.CONTINUE_ON_FAILURE)
@@ -54,7 +55,7 @@ WebUI.verifyElementNotPresent(findTestObject('Object Repository/TC002_VerifyMain
 '''Type to Search textbox "My Info"'''
 WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), txtSearch[0], FailureHandling.CONTINUE_ON_FAILURE)
 '''The menu can be filtered with "My Info"'''
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyFilterSearchMenu'(txtSearch[0])
+commonKeywords.VerifyFilterSearchMenu(txtSearch[0])
 
 
 'Step 5:'
@@ -64,9 +65,11 @@ WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'
 WebUI.sendKeys(findTestObject('Object Repository/TC002_VerifyMainMenu/txtSearch'), txtSearch[1], FailureHandling.CONTINUE_ON_FAILURE)
 'ER:'
 '''The menu can be filtered with "D"'''
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyFilterSearchMenu'(txtSearch[1])
+commonKeywords.VerifyFilterSearchMenu(txtSearch[1])
 
 
 'Step 6:'
 '''Click to "Dashboard" menu'''
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()

@@ -20,6 +20,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
+import com.kms.commonKeywords.commonKeywords
 
 'Precondition'
 def path = System.getProperty('user.home') + "/Downloads/tree.png"
@@ -31,9 +32,9 @@ WebUI.openBrowser(GlobalVariable.url)
 
 'Step 1:'
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.createNewAdminAccount(0, 0, GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.logInPage(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'ER:'
 'The Dashboard page is loaded successfully - User control is displayed'
 WebUI.verifyElementText(findTestObject('Object Repository/CommonTestObject/titlePage'), selectedPage, FailureHandling.CONTINUE_ON_FAILURE)

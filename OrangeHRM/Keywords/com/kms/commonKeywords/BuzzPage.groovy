@@ -16,7 +16,7 @@ import internal.GlobalVariable
 public class BuzzPage {
 
 	@Keyword
-	public String getDate() {
+	def static getDate() {
 		Date date = new Date();
 		SimpleDateFormat dateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 		String formatDateTime = dateTimeFormat.format(date);
@@ -25,7 +25,7 @@ public class BuzzPage {
 	}
 
 	@Keyword
-	public void getBuzzPost(testObject, String userPost) {
+	def static getBuzzPost(testObject, String userPost) {
 		List<WebElement> listPost = WebUiCommonHelper.findWebElements(testObject, GlobalVariable.longTime)
 		List<String> infoPost = new ArrayList<String>()
 		for(int i = 0; i > listPost.size(); i++) {
@@ -34,7 +34,7 @@ public class BuzzPage {
 	}
 
 	@Keyword
-	public String getFullName() {
+	def static getFullName() {
 		//Click on My Info in toggle menu
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'My Info']), FailureHandling.STOP_ON_FAILURE)
 		String firstName = WebUI.getAttribute(findTestObject('Object Repository/TC010_VerifyDashboardChart/fullName',[('fullName') : 'firstName']),'value', FailureHandling.CONTINUE_ON_FAILURE)

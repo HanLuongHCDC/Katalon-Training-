@@ -60,3 +60,5 @@ WebUI.click(findTestObject('Object Repository/TC001_VerifyLoginFunction/logout')
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC001_VerifyLoginFunction/loginForm'), FailureHandling.CONTINUE_ON_FAILURE)
 'Check user control is disappearred'
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/CommonTestObject/titlePage'), GlobalVariable.timeOut, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()

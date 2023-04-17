@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.commonKeywords.commonKeywords
+import com.kms.commonKeywords.AdminPage
 
 'Pre-condition'
 String clkItem = 'Admin'
@@ -28,7 +30,7 @@ String txtDeleteSelected = 'Delete Selected'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.username, GlobalVariable.password)
+commonKeywords.logInPage(GlobalVariable.username, GlobalVariable.password)
 'Navigate to Admin page'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 
@@ -43,7 +45,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/TC009_VerifyAdminDataD
 
 'Step 2:'
 'Create a user as User Role = ESS, Status = Disabled, Password = 123456@Admin and Click to Save button'
-CustomKeywords.'com.kms.commonKeywords.AdminPage.addNewAdmin'('ESS', 'o', 'Disabled', newUsername, newPassword)
+AdminPage.addNewAdmin('ESS', 'o', 'Disabled', newUsername, newPassword)
 'ER:'
 '''Save successfully - A Pop up is displayed with "Success Successfully Saved"'''
 WebUI.verifyElementVisible(findTestObject('Object Repository/CommonTestObject/popUp'), FailureHandling.CONTINUE_ON_FAILURE)

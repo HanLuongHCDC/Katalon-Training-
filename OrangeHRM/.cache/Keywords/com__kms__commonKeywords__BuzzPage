@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "322841598301744E291C45FD96C56602",
+  "keywordFileContentHash": "A40DBCC4E6382ED7A895DE43E07E7E81",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.BuzzPage",
       "keywordMethods": [
         {
           "name": "getDate",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "getBuzzPost",
@@ -37,14 +38,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getFullName",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

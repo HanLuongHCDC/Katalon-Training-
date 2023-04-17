@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.commonKeywords.commonKeywords
 
 'Precondition'
 def path = System.getProperty('user.home') + pathAttachment[0]
@@ -28,9 +29,9 @@ String ePopUpDeleted = "Success\nSuccessfully Deleted\n×"
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new Admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.createNewAdminAccount(0, 0, GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.logInPage(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Click to My Info menu'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 
@@ -81,8 +82,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/TC004_VerifyPersona
 WebUI.verifyElementText(findTestObject('Object Repository/TC004_VerifyPersonalDetails/popUp'), ePopUpText, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/TC004_VerifyPersonalDetails/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)//wait for loading spinner disappeared and then the table is displayed
 'Verify a attachment table is displayed with column name: File Name Description Size Type Date Added Added By Actions'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyTitleTable'(titleTable)
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.GetInfoCellFromTable'(findTestObject('Object Repository/TC004_VerifyPersonalDetails/cellFileName'), attachmentName)
+commonKeywords.verifyTitleTable(titleTable)
+commonKeywords.getInfoCellFromTable(findTestObject('Object Repository/TC004_VerifyPersonalDetails/cellFileName'), attachmentName)
 
 
 'Step 5:'
@@ -96,7 +97,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/TC004_VerifyPersona
 WebUI.verifyElementText(findTestObject('Object Repository/TC004_VerifyPersonalDetails/popUp'), ePopUpText, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/TC004_VerifyPersonalDetails/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)//wait for loading spinner disappeared and then the table is displayed
 'The new attachement file is insert into the table'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.GetInfoCellFromTable'(findTestObject('Object Repository/TC004_VerifyPersonalDetails/cellFileName'), reAttachmentName)
+commonKeywords.getInfoCellFromTable(findTestObject('Object Repository/TC004_VerifyPersonalDetails/cellFileName'), reAttachmentName)
 
 
 'Step 6:'
@@ -108,7 +109,7 @@ WebUI.click(findTestObject('Object Repository/TC004_VerifyPersonalDetails/btnDow
 WebUI.delay(GlobalVariable.longTime)
 'ER:'
 'The file is downloaded successfully - The title of the file exists in the local computer'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyFileDownloadSuccessfully'(latestFileName)
+commonKeywords.verifyFileDownloadSuccessfully(latestFileName)
 
 
 'Step 7:'
@@ -191,4 +192,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/TC004_VerifyPersona
 WebUI.verifyElementText(findTestObject('Object Repository/TC004_VerifyPersonalDetails/popUp'), ePopUpDeleted, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/TC004_VerifyPersonalDetails/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
 'The attached file is deleted successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.VerifyRowDeleted'(findTestObject('Object Repository/TC004_VerifyPersonalDetails/cellFileName'), fileDeleted)
+commonKeywords.verifyRowDeleted(findTestObject('Object Repository/TC004_VerifyPersonalDetails/cellFileName'), fileDeleted)
+
+WebUI.closeBrowser()

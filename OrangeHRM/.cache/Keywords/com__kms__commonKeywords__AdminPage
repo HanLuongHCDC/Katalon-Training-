@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1C235BB27E47BF2F1C484A03F4627BCD",
+  "keywordFileContentHash": "BB295ACB7633B420F164D173D0CB539D",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.AdminPage",
@@ -76,7 +76,7 @@
           "javadoc": ""
         },
         {
-          "name": "creatTotalRecordAdminUser",
+          "name": "createTotalRecordAdminUser",
           "parameters": [
             {
               "name": "eRecord",

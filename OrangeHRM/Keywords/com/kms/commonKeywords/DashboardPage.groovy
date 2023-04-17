@@ -17,7 +17,7 @@ import internal.GlobalVariable
 
 public class DashboardPage {
 	@Keyword
-	public void clickItemChartLocation(testObject, String eItem) {
+	def static clickItemChartLocation(testObject, String eItem) {
 		List<WebElement> listItem = WebUiCommonHelper.findWebElements(testObject, GlobalVariable.longTime)
 		for(int i=0; i < listItem.size(); i++) {
 			String item = listItem.get(i).getText()
@@ -31,9 +31,9 @@ public class DashboardPage {
 			}
 		}
 	}
-	
+
 	@Keyword
-	public void interactWithChart() {
+	def static interactWithChart() {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement canvas = driver.findElement(By.xpath("//p[contains(.,'Location')]//ancestor::div[contains(@class,'widget-header')]//following-sibling::div[contains(@class,'widget-body')]//canvas"))
 		def canvas_dimension = canvas.getSize()
@@ -45,13 +45,10 @@ public class DashboardPage {
 		println(button_x)
 		println(button_y)
 		new Actions(driver).moveToElement(canvas, button_x, button_y).click().build().perform()
-//		JavascriptExecutor executor = (JavascriptExecutor)driver;
-//		executor.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", canvas)
-//		executor.executeScript("arguments[0].click();", canvas);		
 	}
-	
+
 	@Keyword
-	public def percentChartLocation() {
+	def static percentChartLocation() {
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'Directory']), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSearch'), FailureHandling.STOP_ON_FAILURE)
 		def totalRecord = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")

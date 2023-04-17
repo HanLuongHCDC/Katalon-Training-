@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.commonKeywords.commonKeywords
+
 
 'Pre-condition'
 String clkItem = 'Admin'
@@ -26,9 +28,9 @@ String statusEdited = 'Disabled'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.createNewAdminAccount(0, 0, GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.logInPage(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Admin page'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 
@@ -62,3 +64,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/TC008_VerifyAdminDa
 'Step 3:'
 'Check the status of the user - The status is updated correctly'
 WebUI.verifyElementText(findTestObject('Object Repository/TC008_VerifyAdminDataUpdated/statusEdited', [('username') : usernameEdited]), statusEdited, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()

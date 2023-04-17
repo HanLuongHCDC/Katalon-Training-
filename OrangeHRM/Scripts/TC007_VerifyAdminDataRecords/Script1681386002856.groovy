@@ -18,22 +18,23 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
+import com.kms.commonKeywords.commonKeywords
+import com.kms.commonKeywords.AdminPage
+import com.kms.commonKeywords.DirectoryPage
 
 'Pre-condition'
 String clkItem = 'Admin'
 'Navigate to https://opensource-demo.orangehrmlive.com/'
 WebUI.openBrowser(GlobalVariable.url)
 'Create a new admin'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0,0,GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.createNewAdminAccount(0, 0, GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Login to the system successfully'
-CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
+commonKeywords.logInPage(GlobalVariable.userNameNewAdmin, GlobalVariable.passwordNewAdmin)
 'Navigate to Admin page'
 WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : clkItem]), FailureHandling.STOP_ON_FAILURE)
 'Prepare data: the total records must be larger than 51 records'
 def recordData = 51
-CustomKeywords.'com.kms.commonKeywords.AdminPage.creatTotalRecordAdminUser'(recordData)
-//def recordData = WebUI.getText(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
-//WebUI.verifyGreaterThan(recordData, 51, FailureHandling.CONTINUE_ON_FAILURE)
+AdminPage.createTotalRecordAdminUser(recordData)
 
 
 'Step 1:'
@@ -43,8 +44,7 @@ WebUI.click(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/sortI
 'ER:'
 'The username column is sorted by Asc'
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
-CustomKeywords.'com.kms.commonKeywords.DirectoryPage.verifySortAscFunction'(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellUserName'), true, false)
-
+DirectoryPage.verifySortAscFunction(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellUserName'), true, false)
 
 'Step 2:'
 'Select Descending sort for Username column'
@@ -53,7 +53,7 @@ WebUI.click(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/sortI
 'ER:'
 'The username column is sorted by Dec'
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
-CustomKeywords.'com.kms.commonKeywords.DirectoryPage.verifySortAscFunction'(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellUserName'), false, false)
+DirectoryPage.verifySortAscFunction(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellUserName'), false, false)
 
 
 'Step 3:'
@@ -63,9 +63,9 @@ WebUI.click(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/sortI
 'ER:'
 'The Employee Name column is sorted by Asc'
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
-CustomKeywords.'com.kms.commonKeywords.DirectoryPage.verifySortAscFunction'(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellEmployeeName'), true, false)
+DirectoryPage.verifySortAscFunction(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellEmployeeName'), true, false)
 'The sort of Username column is removed'
-CustomKeywords.'com.kms.commonKeywords.DirectoryPage.verifySortAscFunction'(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellUserName'), false, true)
+DirectoryPage.verifySortAscFunction(findTestObject('Object Repository/TC007_VerifyAdminDataRecords/cellUserName'), false, true)
 
 
 'Step 4:'
@@ -74,3 +74,5 @@ List<WebElement> listRow = WebUiCommonHelper.findWebElements(findTestObject('Obj
 'ER:'
 'The total records is displayed correctly - Remember the total records label and compare with total record is displayed by page'
 WebUI.verifyEqual(listRow.size(), recordData, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
