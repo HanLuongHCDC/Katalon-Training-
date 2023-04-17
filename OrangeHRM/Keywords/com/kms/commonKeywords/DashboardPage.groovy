@@ -1,14 +1,17 @@
 package com.kms.commonKeywords
 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import org.openqa.selenium.By
-import org.openqa.selenium.Rectangle
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
@@ -32,25 +35,35 @@ public class DashboardPage {
 	@Keyword
 	public void interactWithChart() {
 		WebDriver driver = DriverFactory.getWebDriver()
-//		driver.manage().window().setSize(new Dimension(375, 812))
-		def canvas = driver.findElement(By.xpath("//p[contains(.,'Location')]//ancestor::div[contains(@class,'widget-header')]//following-sibling::div[contains(@class,'widget-body')]//canvas"))
-//		def canvas_dimension = canvas.getSize()
-//		println(canvas_dimension)
-//		def canvas_center_x = canvas_dimension.getWidth()/2
-//		def canvas_center_y = canvas_dimension.getHeight()/2
-//		int button_x = (canvas_center_x/3)*2
-//		int button_y = (canvas_center_y/3)*2
-//		println(button_x)
-//		println(button_y)
-////		WebUI.mouseOverOffset(findTestObject('Object Repository/TC010_VerifyDashboardChart/canvasChartLocation'), button_x, button_y, FailureHandling.CONTINUE_ON_FAILURE)
-//		new Actions(driver).moveToElement(canvas, button_x, button_y).click().perform()
-		Rectangle r = canvas.getRect()
-		println(r.getX())
-		println(r.getY())
-		int button_x = (r.getX()/3)*2
-		int button_y = (r.getY()/3)*2
-		new Actions(driver).moveToElement(canvas, button_x, button_y).click().perform()
-//		WebUI.mouseOverOffset(findTestObject('Object Repository/TC010_VerifyDashboardChart/canvasChartLocation'), r.getX(), r.getY(), FailureHandling.CONTINUE_ON_FAILURE)
-		
+		WebElement canvas = driver.findElement(By.xpath("//p[contains(.,'Location')]//ancestor::div[contains(@class,'widget-header')]//following-sibling::div[contains(@class,'widget-body')]//canvas"))
+		def canvas_dimension = canvas.getSize()
+		println(canvas_dimension)
+		def canvas_center_x = canvas_dimension.getWidth()/2
+		def canvas_center_y = canvas_dimension.getHeight()/2
+		int button_x = (canvas_center_x/3)
+		int button_y = (canvas_center_y/3)
+		println(button_x)
+		println(button_y)
+		new Actions(driver).moveToElement(canvas, button_x, button_y).click().build().perform()
+//		JavascriptExecutor executor = (JavascriptExecutor)driver;
+//		executor.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", canvas)
+//		executor.executeScript("arguments[0].click();", canvas);		
+	}
+	
+	@Keyword
+	public def percentChartLocation() {
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'Directory']), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSearch'), FailureHandling.STOP_ON_FAILURE)
+		def totalRecord = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
+		println(totalRecord)
+		//Check the number of records of specified Location
+		WebUI.click(findTestObject('Object Repository/TC006_VerifyDirectory/ddLocation'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/TC006_VerifyDirectory/selectLocation'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonTestObject/btnSearch'), FailureHandling.STOP_ON_FAILURE)
+		def locationRecord = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
+		println(locationRecord)
+		float percent = (Integer.parseInt(locationRecord)/Integer.parseInt(totalRecord))*100
+		println(String.format('%.2f', percent))
+		return String.format('%.2f', percent)
 	}
 }

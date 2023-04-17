@@ -30,7 +30,6 @@ String password = '123Admin@@'
 WebUI.openBrowser(GlobalVariable.url)
 'Add new admin user'
 CustomKeywords.'com.kms.commonKeywords.commonKeywords.createNewAdminAccount'(0, 0, username, password)
-CustomKeywords.'com.kms.commonKeywords.AdminPage.addNewAdmin'('Admin', 'p', 'Enabled', username, password)
 'Login to the system successfully'
 CustomKeywords.'com.kms.commonKeywords.commonKeywords.logInPage'(username, password)
 'Get the full name of employee'
@@ -42,8 +41,14 @@ WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item
 'Step 1:'
 'Look at Employee Distribution by Location and click to the orange piece'
 CustomKeywords.'com.kms.commonKeywords.DashboardPage.clickItemChartLocation'(findTestObject('Object Repository/TC010_VerifyDashboardChart/chartLocationItem'), 'New York Sales Office')
+WebUI.scrollToElement(findTestObject('Object Repository/TC010_VerifyDashboardChart/titleChartLocation'), 5)
 CustomKeywords.'com.kms.commonKeywords.DashboardPage.interactWithChart'()
-WebUI.getText(findTestObject('Object Repository/TC010_VerifyDashboardChart/dataChart'), FailureHandling.CONTINUE_ON_FAILURE)
+String txtPercent = WebUI.getText(findTestObject('Object Repository/TC010_VerifyDashboardChart/dataChart'), FailureHandling.CONTINUE_ON_FAILURE).split('\\(')[1].split('\\%')[0]
+println(txtPercent)
+'ER:'
+'Verify the New York Sales Office display correctly'
+def percent = CustomKeywords.'com.kms.commonKeywords.DashboardPage.percentChartLocation'()//Get percent of chart in Directory menu and compare with actual data get from chart in Dashboard menu
+WebUI.verifyEqual(txtPercent, percent, FailureHandling.CONTINUE_ON_FAILURE)
 
 
 'Step 2:'
@@ -88,3 +93,5 @@ WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)//need to refresh to display t
 'The dashboard page is displayed - The new post is also displayed in the Buzz Latest Posts section'
 WebUI.verifyElementText(findTestObject('Object Repository/CommonTestObject/titlePage'), clkItem, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.verifyElementVisible(findTestObject('Object Repository/TC010_VerifyDashboardChart/dashboardBodyPost', [('name') : name, ('dateTime') : dateTime, ('body') : post]), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()

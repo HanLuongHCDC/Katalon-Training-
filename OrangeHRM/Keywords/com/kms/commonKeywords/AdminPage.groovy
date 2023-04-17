@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class AdminPage {
-	
+
 	@Keyword
 	public void addNewAdmin(String role, String employee, String status, String username, String password) {
 		List<String> headerAddUser = ['User Role', 'Employee Name', 'Status', 'Username', 'Password', 'Confirm Password']
@@ -42,23 +42,23 @@ public class AdminPage {
 		'Verify Loading Spinner is disappeared'
 		WebUI.waitForElementNotPresent(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/loadingSpinner'), GlobalVariable.longTime, FailureHandling.CONTINUE_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	public void creatTotalRecordAdminUser(int eRecord) {
 		def record = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
 		println(record)
 		int aRecord = Integer.parseInt(record)
 		while(Integer.parseInt(record) < eRecord) {
-				WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'Admin']), FailureHandling.STOP_ON_FAILURE)
-				WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/btnAddAdminUser'), FailureHandling.STOP_ON_FAILURE)
-				Random rd = new Random()
-				int randomNumber = rd.nextInt(100)
-				addNewAdmin('Admin','o', 'Enabled','\\$$Admin$$admin\\' + randomNumber,'Admin123@@')
-				record = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/clkItem', [('item') : 'Admin']), FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/CommonTestObject/CreateNewAdmin/btnAddAdminUser'), FailureHandling.STOP_ON_FAILURE)
+			Random rd = new Random()
+			int randomNumber = rd.nextInt(100)
+			addNewAdmin('Admin','o', 'Enabled','\\$$Admin$$admin\\' + randomNumber,'Admin123@@')
+			record = WebUI.getText(findTestObject('Object Repository/CommonTestObject/recordFound'), FailureHandling.CONTINUE_ON_FAILURE).split("\\) ")[0].replace("(", "")
 		}
 		println('Data is prepared')
 	}
-	
+
 	@Keyword
 	public List<String> GetInfoCellFromTable(TestObject, String username) {
 		WebDriver driver = DriverFactory.getWebDriver()

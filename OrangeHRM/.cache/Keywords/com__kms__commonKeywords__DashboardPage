@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "22AF03B0E1D95F07E24799982832708C",
+  "keywordFileContentHash": "AE5DCD77C469371AD307B2EC1D26C7A7",
   "keywordClasses": [
     {
       "name": "com.kms.commonKeywords.DashboardPage",
@@ -38,6 +38,11 @@
         },
         {
           "name": "interactWithChart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "percentChartLocation",
           "parameters": [],
           "javadoc": ""
         }
