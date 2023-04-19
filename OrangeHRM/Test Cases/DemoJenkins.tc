@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DemoJenkins</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2537a558-e08a-4eda-ae9c-ce3b9bfad757</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c76a0ce2-62f3-4d2a-a805-da0ac85f8ab6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed2d1d56-e81f-4ec3-b187-53ad72757065</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dashboard'</defaultValue>
+      <description></description>
+      <id>c76a0ce2-62f3-4d2a-a805-da0ac85f8ab6</id>
+      <masked>false</masked>
+      <name>selectedPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'OrangeHRM'</defaultValue>
+      <description></description>
+      <id>ed2d1d56-e81f-4ec3-b187-53ad72757065</id>
+      <masked>false</masked>
+      <name>pageTitle</name>
+   </variable>
+</TestCaseEntity>

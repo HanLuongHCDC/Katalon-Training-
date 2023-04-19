@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>loginForm</name>
+   <tag></tag>
+   <elementGuidId>6eb8ce58-4ac3-437d-81d7-d7f91e048fda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'login-form')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'login-form')]</value>
+      <webElementGuid>ba141d8c-4b3e-4a85-9104-4ad9f4796bf0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
